@@ -1,0 +1,361 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\frmgraficas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|solutionrelative:frmgraficas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\frmterminados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|solutionrelative:frmterminados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\mdinicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|solutionrelative:mdinicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|c:\\users\\joset\\onedrive\\escritorio\\aqualink\\frmagregarreporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|solutionrelative:frmagregarreporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\formconsultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|solutionrelative:formconsultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\encuestas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|solutionrelative:encuestas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\mdireportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|solutionrelative:mdireportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\mdiprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|solutionrelative:mdiprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\mdinicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|solutionrelative:mdinicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\mdiPrincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|solutionrelative:mdiPrincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|solutionrelative:registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\encuestas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|solutionrelative:encuestas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\frmagregarreporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|solutionrelative:frmagregarreporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\seleccionencuesta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|solutionrelative:seleccionencuesta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|ProyectoAquaLink||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\seleccionencuesta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|solutionrelative:seleccionencuesta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\formconsultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|solutionrelative:formconsultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\mdiReportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|solutionrelative:mdiReportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\frmGraficas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|solutionrelative:frmGraficas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\frmestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|solutionrelative:frmestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\frmEstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|solutionrelative:frmEstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 138,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "mdiPrincipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\mdiPrincipal.cs",
+              "RelativeDocumentMoniker": "mdiPrincipal.cs",
+              "ToolTip": "C:\\Users\\joset\\OneDrive\\Escritorio\\escases-del-agua - copia\\mdiPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\escases-del-agua - copia\\mdiPrincipal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T18:35:43.324Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MDInicio.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\MDInicio.cs",
+              "RelativeDocumentMoniker": "MDInicio.cs",
+              "ToolTip": "C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\MDInicio.cs [Dise\u00F1o]",
+              "RelativeToolTip": "MDInicio.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T19:14:40.082Z",
+              "IsPinned": true,
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "mdiReportes.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\mdiReportes.cs",
+              "RelativeDocumentMoniker": "mdiReportes.cs",
+              "ToolTip": "C:\\Users\\joset\\OneDrive\\Escritorio\\escases-del-agua - copia\\mdiReportes.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\escases-del-agua - copia\\mdiReportes.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T04:56:39.093Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "frmAgregarReporte.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\frmAgregarReporte.cs",
+              "RelativeDocumentMoniker": "frmAgregarReporte.cs",
+              "ToolTip": "C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\frmAgregarReporte.cs [Design]",
+              "RelativeToolTip": "frmAgregarReporte.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T06:04:30.513Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "frmEstatus.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\frmEstatus.cs",
+              "RelativeDocumentMoniker": "frmEstatus.cs",
+              "ToolTip": "C:\\Users\\Sammy\\escases-del-agua\\frmEstatus.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\Sammy\\escases-del-agua\\frmEstatus.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T06:56:18.106Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmTerminados.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\frmTerminados.cs",
+              "RelativeDocumentMoniker": "frmTerminados.cs",
+              "ToolTip": "C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\frmTerminados.cs [Dise\u00F1o]",
+              "RelativeToolTip": "frmTerminados.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T04:42:02.936Z",
+              "IsPinned": true,
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmGraficas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\frmGraficas.cs",
+              "RelativeDocumentMoniker": "frmGraficas.cs",
+              "ToolTip": "C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\frmGraficas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "frmGraficas.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T06:04:10.783Z",
+              "IsPinned": true,
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MDInicio.cs",
+              "DocumentMoniker": "C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\MDInicio.cs",
+              "RelativeDocumentMoniker": "MDInicio.cs",
+              "ToolTip": "C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\MDInicio.cs",
+              "RelativeToolTip": "MDInicio.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAwFIAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T19:59:34.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "mdiPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\mdiPrincipal.cs",
+              "RelativeDocumentMoniker": "mdiPrincipal.cs",
+              "ToolTip": "C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\mdiPrincipal.cs",
+              "RelativeToolTip": "mdiPrincipal.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAwwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T12:09:56.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Registro.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\Registro.cs",
+              "RelativeDocumentMoniker": "Registro.cs",
+              "ToolTip": "C:\\Users\\cisco01\\escases-del-agua\\Registro.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\cisco01\\escases-del-agua\\Registro.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-08-14T16:58:45.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Encuestas.cs",
+              "DocumentMoniker": "C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\Encuestas.cs",
+              "RelativeDocumentMoniker": "Encuestas.cs",
+              "ToolTip": "C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\Encuestas.cs",
+              "RelativeToolTip": "Encuestas.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAowFIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T15:15:47.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Encuestas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\Encuestas.cs",
+              "RelativeDocumentMoniker": "Encuestas.cs",
+              "ToolTip": "C:\\Users\\joset\\OneDrive\\Escritorio\\escases-del-agua - copia\\Encuestas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\escases-del-agua - copia\\Encuestas.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T15:07:31.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormConsultas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\FormConsultas.cs",
+              "RelativeDocumentMoniker": "FormConsultas.cs",
+              "ToolTip": "C:\\Users\\joset\\OneDrive\\Escritorio\\escases-del-agua - copia\\FormConsultas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\escases-del-agua - copia\\FormConsultas.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T18:58:37.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SeleccionEncuesta.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\SeleccionEncuesta.cs",
+              "RelativeDocumentMoniker": "SeleccionEncuesta.cs",
+              "ToolTip": "C:\\Users\\cisco01\\escases-del-agua\\SeleccionEncuesta.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\cisco01\\escases-del-agua\\SeleccionEncuesta.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T19:17:17.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProyectoAquaLink",
+              "DocumentMoniker": "C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\ProyectoAquaLink.csproj",
+              "RelativeDocumentMoniker": "ProyectoAquaLink.csproj",
+              "ToolTip": "C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\ProyectoAquaLink.csproj",
+              "RelativeToolTip": "ProyectoAquaLink.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-22T07:16:54.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "frmEstatus.cs",
+              "DocumentMoniker": "C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\frmEstatus.cs",
+              "RelativeDocumentMoniker": "frmEstatus.cs",
+              "ToolTip": "C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\frmEstatus.cs",
+              "RelativeToolTip": "frmEstatus.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAEwBUAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T07:43:06.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "frmGraficas.cs",
+              "DocumentMoniker": "C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\frmGraficas.cs",
+              "RelativeDocumentMoniker": "frmGraficas.cs",
+              "ToolTip": "C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\frmGraficas.cs",
+              "RelativeToolTip": "frmGraficas.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAEwCUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T20:24:18.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "mdiReportes.cs",
+              "DocumentMoniker": "C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\mdiReportes.cs",
+              "RelativeDocumentMoniker": "mdiReportes.cs",
+              "ToolTip": "C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\mdiReportes.cs",
+              "RelativeToolTip": "mdiReportes.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAEwDYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T19:29:34.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmAgregarReporte.cs",
+              "DocumentMoniker": "C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\frmAgregarReporte.cs",
+              "RelativeDocumentMoniker": "frmAgregarReporte.cs",
+              "ToolTip": "C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\frmAgregarReporte.cs",
+              "RelativeToolTip": "frmAgregarReporte.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T06:36:31.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FormConsultas.cs",
+              "DocumentMoniker": "C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\FormConsultas.cs",
+              "RelativeDocumentMoniker": "FormConsultas.cs",
+              "ToolTip": "C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\FormConsultas.cs",
+              "RelativeToolTip": "FormConsultas.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAA1wGwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T21:24:02.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SeleccionEncuesta.cs",
+              "DocumentMoniker": "C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\SeleccionEncuesta.cs",
+              "RelativeDocumentMoniker": "SeleccionEncuesta.cs",
+              "ToolTip": "C:\\Users\\joset\\OneDrive\\Escritorio\\Aqualink\\SeleccionEncuesta.cs",
+              "RelativeToolTip": "SeleccionEncuesta.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwDMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T21:30:49.677Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

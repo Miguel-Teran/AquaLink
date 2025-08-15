@@ -1,0 +1,116 @@
+C:\Users\joset\OneDrive\Escritorio\3cuatri\P.O.O\ProyectoAquaLink\bin\Debug\ProyectoAquaLink.exe.config
+C:\Users\joset\OneDrive\Escritorio\3cuatri\P.O.O\ProyectoAquaLink\bin\Debug\ProyectoAquaLink.exe
+C:\Users\joset\OneDrive\Escritorio\3cuatri\P.O.O\ProyectoAquaLink\bin\Debug\ProyectoAquaLink.pdb
+C:\Users\joset\OneDrive\Escritorio\3cuatri\P.O.O\ProyectoAquaLink\obj\Debug\ProyectoAquaLink.csproj.AssemblyReference.cache
+C:\Users\joset\OneDrive\Escritorio\3cuatri\P.O.O\ProyectoAquaLink\obj\Debug\ProyectoAquaLink.frm_Login.resources
+C:\Users\joset\OneDrive\Escritorio\3cuatri\P.O.O\ProyectoAquaLink\obj\Debug\ProyectoAquaLink.Properties.Resources.resources
+C:\Users\joset\OneDrive\Escritorio\3cuatri\P.O.O\ProyectoAquaLink\obj\Debug\ProyectoAquaLink.csproj.GenerateResource.cache
+C:\Users\joset\OneDrive\Escritorio\3cuatri\P.O.O\ProyectoAquaLink\obj\Debug\ProyectoAquaLink.csproj.CoreCompileInputs.cache
+C:\Users\joset\OneDrive\Escritorio\3cuatri\P.O.O\ProyectoAquaLink\obj\Debug\ProyectoAquaLink.exe
+C:\Users\joset\OneDrive\Escritorio\3cuatri\P.O.O\ProyectoAquaLink\obj\Debug\ProyectoAquaLink.pdb
+C:\Users\Javi\Desktop\AquaLink\ProyectoAquaLink-20250720T184759Z-1-001\ProyectoAquaLink\obj\Debug\ProyectoAquaLink.csproj.AssemblyReference.cache
+C:\Users\Javi\Desktop\AquaLink\ProyectoAquaLink-20250720T184759Z-1-001\ProyectoAquaLink\obj\Debug\ProyectoAquaLink.exe
+C:\Users\Javi\Desktop\AquaLink\ProyectoAquaLink-20250720T184759Z-1-001\ProyectoAquaLink\obj\Debug\ProyectoAquaLink.pdb
+C:\Users\Javi\Desktop\AquaLink\ProyectoAquaLink-20250720T184759Z-1-001\ProyectoAquaLink\bin\Debug\ProyectoAquaLink.exe.config
+C:\Users\Javi\Desktop\AquaLink\ProyectoAquaLink-20250720T184759Z-1-001\ProyectoAquaLink\bin\Debug\ProyectoAquaLink.exe
+C:\Users\Javi\Desktop\AquaLink\ProyectoAquaLink-20250720T184759Z-1-001\ProyectoAquaLink\bin\Debug\ProyectoAquaLink.pdb
+C:\Users\Javi\Desktop\AquaLink\ProyectoAquaLink-20250720T184759Z-1-001\ProyectoAquaLink\obj\Debug\ProyectoAquaLink.MDInicio.resources
+C:\Users\Javi\Desktop\AquaLink\ProyectoAquaLink-20250720T184759Z-1-001\ProyectoAquaLink\obj\Debug\ProyectoAquaLink.frm_Login.resources
+C:\Users\Javi\Desktop\AquaLink\ProyectoAquaLink-20250720T184759Z-1-001\ProyectoAquaLink\obj\Debug\ProyectoAquaLink.Properties.Resources.resources
+C:\Users\Javi\Desktop\AquaLink\ProyectoAquaLink-20250720T184759Z-1-001\ProyectoAquaLink\obj\Debug\ProyectoAquaLink.csproj.GenerateResource.cache
+C:\Users\Javi\Desktop\AquaLink\ProyectoAquaLink-20250720T184759Z-1-001\ProyectoAquaLink\obj\Debug\ProyectoAquaLink.csproj.CoreCompileInputs.cache
+C:\Users\joset\OneDrive\Escritorio\POO PROYECTO\ProyectoAquaLink-20250722T024509Z-1-001\ProyectoAquaLink\obj\Debug\ProyectoAquaLink.csproj.AssemblyReference.cache
+C:\Users\joset\OneDrive\Escritorio\POO PROYECTO\ProyectoAquaLink-20250722T024509Z-1-001\ProyectoAquaLink\obj\Debug\ProyectoAquaLink.exe
+C:\Users\joset\OneDrive\Escritorio\POO PROYECTO\ProyectoAquaLink-20250722T024509Z-1-001\ProyectoAquaLink\obj\Debug\ProyectoAquaLink.pdb
+C:\Users\joset\OneDrive\Escritorio\POO PROYECTO\ProyectoAquaLink-20250722T024509Z-1-001\ProyectoAquaLink\bin\Debug\ProyectoAquaLink.exe.config
+C:\Users\joset\OneDrive\Escritorio\POO PROYECTO\ProyectoAquaLink-20250722T024509Z-1-001\ProyectoAquaLink\bin\Debug\ProyectoAquaLink.exe
+C:\Users\joset\OneDrive\Escritorio\POO PROYECTO\ProyectoAquaLink-20250722T024509Z-1-001\ProyectoAquaLink\bin\Debug\ProyectoAquaLink.pdb
+C:\Users\joset\OneDrive\Escritorio\POO PROYECTO\ProyectoAquaLink-20250722T024509Z-1-001\ProyectoAquaLink\obj\Debug\ProyectoAquaLink.MDInicio.resources
+C:\Users\joset\OneDrive\Escritorio\POO PROYECTO\ProyectoAquaLink-20250722T024509Z-1-001\ProyectoAquaLink\obj\Debug\ProyectoAquaLink.frm_Login.resources
+C:\Users\joset\OneDrive\Escritorio\POO PROYECTO\ProyectoAquaLink-20250722T024509Z-1-001\ProyectoAquaLink\obj\Debug\ProyectoAquaLink.Properties.Resources.resources
+C:\Users\joset\OneDrive\Escritorio\POO PROYECTO\ProyectoAquaLink-20250722T024509Z-1-001\ProyectoAquaLink\obj\Debug\ProyectoAquaLink.csproj.GenerateResource.cache
+C:\Users\joset\OneDrive\Escritorio\POO PROYECTO\ProyectoAquaLink-20250722T024509Z-1-001\ProyectoAquaLink\obj\Debug\ProyectoAquaLink.csproj.CoreCompileInputs.cache
+C:\Users\joset\OneDrive\Escritorio\POO PROYECTO\ProyectoAquaLink-20250722T024509Z-1-001\ProyectoAquaLink\obj\Debug\ProyectoAquaLink.mdiReportes.resources
+C:\Users\joset\OneDrive\Escritorio\POO PROYECTO\ProyectoAquaLink-20250722T024509Z-1-001\ProyectoAquaLink\obj\Debug\ProyectoAquaLink.mdiReporteNuevo.resources
+C:\Users\joset\OneDrive\Escritorio\POO PROYECTO\ProyectoAquaLink-20250722T024509Z-1-001\ProyectoAquaLink\obj\Debug\ProyectoAquaLink.frmAgregarReporte.resources
+C:\Users\joset\OneDrive\Escritorio\POO PROYECTO\ProyectoAquaLink-20250722T024509Z-1-001\ProyectoAquaLink\obj\Debug\ProyectoAquaLink.frmEstatus.resources
+C:\Users\joset\OneDrive\Escritorio\POO PROYECTO\ProyectoAquaLink-20250722T024509Z-1-001\ProyectoAquaLink\obj\Debug\ProyectoAquaLink.frmTerminados.resources
+C:\Users\joset\OneDrive\Escritorio\POO PROYECTO\ProyectoAquaLink-20250722T024509Z-1-001\ProyectoAquaLink\obj\Debug\ProyectoAquaLink.frmGraficas.resources
+C:\Users\Javi\Desktop\Proyecto\ProyectoAquaLink(login, inicio, reportes, grafica)-20250805T215316Z-1-001\ProyectoAquaLink(login, inicio, reportes, grafica)\obj\Debug\ProyectoAquaLink.csproj.AssemblyReference.cache
+C:\Users\Javi\Desktop\Proyecto\ProyectoAquaLink(login, inicio, reportes, grafica)-20250805T215316Z-1-001\ProyectoAquaLink(login, inicio, reportes, grafica)\obj\Debug\ProyectoAquaLink.exe
+C:\Users\Javi\Desktop\Proyecto\ProyectoAquaLink(login, inicio, reportes, grafica)-20250805T215316Z-1-001\ProyectoAquaLink(login, inicio, reportes, grafica)\obj\Debug\ProyectoAquaLink.pdb
+C:\Users\Javi\Desktop\Proyecto\ProyectoAquaLink(login, inicio, reportes, grafica)-20250805T215316Z-1-001\ProyectoAquaLink(login, inicio, reportes, grafica)\bin\Debug\ProyectoAquaLink.exe.config
+C:\Users\Javi\Desktop\Proyecto\ProyectoAquaLink(login, inicio, reportes, grafica)-20250805T215316Z-1-001\ProyectoAquaLink(login, inicio, reportes, grafica)\bin\Debug\ProyectoAquaLink.exe
+C:\Users\Javi\Desktop\Proyecto\ProyectoAquaLink(login, inicio, reportes, grafica)-20250805T215316Z-1-001\ProyectoAquaLink(login, inicio, reportes, grafica)\bin\Debug\ProyectoAquaLink.pdb
+C:\Users\Javi\Desktop\Proyecto\ProyectoAquaLink(login, inicio, reportes, grafica)-20250805T215316Z-1-001\ProyectoAquaLink(login, inicio, reportes, grafica)\obj\Debug\ProyectoAquaLink.frmAgregarReporte.resources
+C:\Users\Javi\Desktop\Proyecto\ProyectoAquaLink(login, inicio, reportes, grafica)-20250805T215316Z-1-001\ProyectoAquaLink(login, inicio, reportes, grafica)\obj\Debug\ProyectoAquaLink.frmEstatus.resources
+C:\Users\Javi\Desktop\Proyecto\ProyectoAquaLink(login, inicio, reportes, grafica)-20250805T215316Z-1-001\ProyectoAquaLink(login, inicio, reportes, grafica)\obj\Debug\ProyectoAquaLink.frmGraficas.resources
+C:\Users\Javi\Desktop\Proyecto\ProyectoAquaLink(login, inicio, reportes, grafica)-20250805T215316Z-1-001\ProyectoAquaLink(login, inicio, reportes, grafica)\obj\Debug\ProyectoAquaLink.frmTerminados.resources
+C:\Users\Javi\Desktop\Proyecto\ProyectoAquaLink(login, inicio, reportes, grafica)-20250805T215316Z-1-001\ProyectoAquaLink(login, inicio, reportes, grafica)\obj\Debug\ProyectoAquaLink.MDInicio.resources
+C:\Users\Javi\Desktop\Proyecto\ProyectoAquaLink(login, inicio, reportes, grafica)-20250805T215316Z-1-001\ProyectoAquaLink(login, inicio, reportes, grafica)\obj\Debug\ProyectoAquaLink.frm_Login.resources
+C:\Users\Javi\Desktop\Proyecto\ProyectoAquaLink(login, inicio, reportes, grafica)-20250805T215316Z-1-001\ProyectoAquaLink(login, inicio, reportes, grafica)\obj\Debug\ProyectoAquaLink.mdiReporteNuevo.resources
+C:\Users\Javi\Desktop\Proyecto\ProyectoAquaLink(login, inicio, reportes, grafica)-20250805T215316Z-1-001\ProyectoAquaLink(login, inicio, reportes, grafica)\obj\Debug\ProyectoAquaLink.Properties.Resources.resources
+C:\Users\Javi\Desktop\Proyecto\ProyectoAquaLink(login, inicio, reportes, grafica)-20250805T215316Z-1-001\ProyectoAquaLink(login, inicio, reportes, grafica)\obj\Debug\ProyectoAquaLink.mdiReportes.resources
+C:\Users\Javi\Desktop\Proyecto\ProyectoAquaLink(login, inicio, reportes, grafica)-20250805T215316Z-1-001\ProyectoAquaLink(login, inicio, reportes, grafica)\obj\Debug\ProyectoAquaLink.csproj.GenerateResource.cache
+C:\Users\Javi\Desktop\Proyecto\ProyectoAquaLink(login, inicio, reportes, grafica)-20250805T215316Z-1-001\ProyectoAquaLink(login, inicio, reportes, grafica)\obj\Debug\ProyectoAquaLink.csproj.CoreCompileInputs.cache
+C:\Users\joset\OneDrive\Escritorio\POO PROYECTO\ProyectoAquaLink(login, inicio, reportes, grafica) Javi\ProyectoAquaLink(login, inicio, reportes, grafica)\obj\Debug\ProyectoAquaLink.csproj.AssemblyReference.cache
+C:\Users\joset\OneDrive\Escritorio\POO PROYECTO\ProyectoAquaLink(login, inicio, reportes, grafica) Javi\ProyectoAquaLink(login, inicio, reportes, grafica)\obj\Debug\ProyectoAquaLink.exe
+C:\Users\joset\OneDrive\Escritorio\POO PROYECTO\ProyectoAquaLink(login, inicio, reportes, grafica) Javi\ProyectoAquaLink(login, inicio, reportes, grafica)\obj\Debug\ProyectoAquaLink.pdb
+C:\Users\joset\OneDrive\Escritorio\POO PROYECTO\ProyectoAquaLink(login, inicio, reportes, grafica) Javi\ProyectoAquaLink(login, inicio, reportes, grafica)\bin\Debug\ProyectoAquaLink.exe.config
+C:\Users\joset\OneDrive\Escritorio\POO PROYECTO\ProyectoAquaLink(login, inicio, reportes, grafica) Javi\ProyectoAquaLink(login, inicio, reportes, grafica)\bin\Debug\ProyectoAquaLink.exe
+C:\Users\joset\OneDrive\Escritorio\POO PROYECTO\ProyectoAquaLink(login, inicio, reportes, grafica) Javi\ProyectoAquaLink(login, inicio, reportes, grafica)\bin\Debug\ProyectoAquaLink.pdb
+C:\Users\joset\OneDrive\Escritorio\POO PROYECTO\ProyectoAquaLink(login, inicio, reportes, grafica) Javi\ProyectoAquaLink(login, inicio, reportes, grafica)\obj\Debug\ProyectoAquaLink.frmAgregarReporte.resources
+C:\Users\joset\OneDrive\Escritorio\POO PROYECTO\ProyectoAquaLink(login, inicio, reportes, grafica) Javi\ProyectoAquaLink(login, inicio, reportes, grafica)\obj\Debug\ProyectoAquaLink.frmEstatus.resources
+C:\Users\joset\OneDrive\Escritorio\POO PROYECTO\ProyectoAquaLink(login, inicio, reportes, grafica) Javi\ProyectoAquaLink(login, inicio, reportes, grafica)\obj\Debug\ProyectoAquaLink.frmGraficas.resources
+C:\Users\joset\OneDrive\Escritorio\POO PROYECTO\ProyectoAquaLink(login, inicio, reportes, grafica) Javi\ProyectoAquaLink(login, inicio, reportes, grafica)\obj\Debug\ProyectoAquaLink.frmTerminados.resources
+C:\Users\joset\OneDrive\Escritorio\POO PROYECTO\ProyectoAquaLink(login, inicio, reportes, grafica) Javi\ProyectoAquaLink(login, inicio, reportes, grafica)\obj\Debug\ProyectoAquaLink.MDInicio.resources
+C:\Users\joset\OneDrive\Escritorio\POO PROYECTO\ProyectoAquaLink(login, inicio, reportes, grafica) Javi\ProyectoAquaLink(login, inicio, reportes, grafica)\obj\Debug\ProyectoAquaLink.frm_Login.resources
+C:\Users\joset\OneDrive\Escritorio\POO PROYECTO\ProyectoAquaLink(login, inicio, reportes, grafica) Javi\ProyectoAquaLink(login, inicio, reportes, grafica)\obj\Debug\ProyectoAquaLink.mdiReporteNuevo.resources
+C:\Users\joset\OneDrive\Escritorio\POO PROYECTO\ProyectoAquaLink(login, inicio, reportes, grafica) Javi\ProyectoAquaLink(login, inicio, reportes, grafica)\obj\Debug\ProyectoAquaLink.Properties.Resources.resources
+C:\Users\joset\OneDrive\Escritorio\POO PROYECTO\ProyectoAquaLink(login, inicio, reportes, grafica) Javi\ProyectoAquaLink(login, inicio, reportes, grafica)\obj\Debug\ProyectoAquaLink.mdiReportes.resources
+C:\Users\joset\OneDrive\Escritorio\POO PROYECTO\ProyectoAquaLink(login, inicio, reportes, grafica) Javi\ProyectoAquaLink(login, inicio, reportes, grafica)\obj\Debug\ProyectoAquaLink.csproj.GenerateResource.cache
+C:\Users\joset\OneDrive\Escritorio\POO PROYECTO\ProyectoAquaLink(login, inicio, reportes, grafica) Javi\ProyectoAquaLink(login, inicio, reportes, grafica)\obj\Debug\ProyectoAquaLink.csproj.CoreCompileInputs.cache
+C:\Users\Sammy\escases-del-agua\bin\Debug\ProyectoAquaLink.exe.config
+C:\Users\Sammy\escases-del-agua\bin\Debug\ProyectoAquaLink.exe
+C:\Users\Sammy\escases-del-agua\bin\Debug\ProyectoAquaLink.pdb
+C:\Users\Sammy\escases-del-agua\obj\Debug\ProyectoAquaLink.csproj.AssemblyReference.cache
+C:\Users\Sammy\escases-del-agua\obj\Debug\ProyectoAquaLink.Encuestas.resources
+C:\Users\Sammy\escases-del-agua\obj\Debug\ProyectoAquaLink.Formulario_ejemplo.resources
+C:\Users\Sammy\escases-del-agua\obj\Debug\ProyectoAquaLink.frmAgregarReporte.resources
+C:\Users\Sammy\escases-del-agua\obj\Debug\ProyectoAquaLink.frmEstatus.resources
+C:\Users\Sammy\escases-del-agua\obj\Debug\ProyectoAquaLink.frmGraficas.resources
+C:\Users\Sammy\escases-del-agua\obj\Debug\ProyectoAquaLink.frmTerminados.resources
+C:\Users\Sammy\escases-del-agua\obj\Debug\ProyectoAquaLink.MDInicio.resources
+C:\Users\Sammy\escases-del-agua\obj\Debug\ProyectoAquaLink.frm_Login.resources
+C:\Users\Sammy\escases-del-agua\obj\Debug\ProyectoAquaLink.mdiReporteNuevo.resources
+C:\Users\Sammy\escases-del-agua\obj\Debug\ProyectoAquaLink.Properties.Resources.resources
+C:\Users\Sammy\escases-del-agua\obj\Debug\ProyectoAquaLink.mdiReportes.resources
+C:\Users\Sammy\escases-del-agua\obj\Debug\ProyectoAquaLink.csproj.GenerateResource.cache
+C:\Users\Sammy\escases-del-agua\obj\Debug\ProyectoAquaLink.csproj.CoreCompileInputs.cache
+C:\Users\Sammy\escases-del-agua\obj\Debug\ProyectoAquaLink.exe
+C:\Users\Sammy\escases-del-agua\obj\Debug\ProyectoAquaLink.pdb
+C:\Users\Sammy\escases-del-agua\obj\Debug\ProyectoAquaLink.FormConsultas.resources
+C:\Users\Sammy\escases-del-agua\obj\Debug\ProyectoAquaLink.SeleccionEncuesta.resources
+C:\Users\cisco01\escases-del-agua\bin\Debug\ProyectoAquaLink.exe.config
+C:\Users\cisco01\escases-del-agua\bin\Debug\ProyectoAquaLink.exe
+C:\Users\cisco01\escases-del-agua\bin\Debug\ProyectoAquaLink.pdb
+C:\Users\cisco01\escases-del-agua\obj\Debug\ProyectoAquaLink.csproj.AssemblyReference.cache
+C:\Users\cisco01\escases-del-agua\obj\Debug\ProyectoAquaLink.Encuestas.resources
+C:\Users\cisco01\escases-del-agua\obj\Debug\ProyectoAquaLink.FormConsultas.resources
+C:\Users\cisco01\escases-del-agua\obj\Debug\ProyectoAquaLink.Formulario_ejemplo.resources
+C:\Users\cisco01\escases-del-agua\obj\Debug\ProyectoAquaLink.frmAgregarReporte.resources
+C:\Users\cisco01\escases-del-agua\obj\Debug\ProyectoAquaLink.frmEstatus.resources
+C:\Users\cisco01\escases-del-agua\obj\Debug\ProyectoAquaLink.frmGraficas.resources
+C:\Users\cisco01\escases-del-agua\obj\Debug\ProyectoAquaLink.frmTerminados.resources
+C:\Users\cisco01\escases-del-agua\obj\Debug\ProyectoAquaLink.MDInicio.resources
+C:\Users\cisco01\escases-del-agua\obj\Debug\ProyectoAquaLink.frm_Login.resources
+C:\Users\cisco01\escases-del-agua\obj\Debug\ProyectoAquaLink.mdiReporteNuevo.resources
+C:\Users\cisco01\escases-del-agua\obj\Debug\ProyectoAquaLink.Properties.Resources.resources
+C:\Users\cisco01\escases-del-agua\obj\Debug\ProyectoAquaLink.mdiReportes.resources
+C:\Users\cisco01\escases-del-agua\obj\Debug\ProyectoAquaLink.SeleccionEncuesta.resources
+C:\Users\cisco01\escases-del-agua\obj\Debug\ProyectoAquaLink.csproj.GenerateResource.cache
+C:\Users\cisco01\escases-del-agua\obj\Debug\ProyectoAquaLink.csproj.CoreCompileInputs.cache
+C:\Users\cisco01\escases-del-agua\obj\Debug\ProyectoAquaLink.exe
+C:\Users\cisco01\escases-del-agua\obj\Debug\ProyectoAquaLink.pdb
+C:\Users\cisco01\escases-del-agua\obj\Debug\ProyectoAquaLink.Registro.resources
+C:\Users\Sammy\escases-del-agua\obj\Debug\ProyectoAquaLink.Registro.resources

@@ -1,0 +1,779 @@
+﻿namespace ProyectoAquaLink
+{
+    partial class FormConsultas
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox23 = new System.Windows.Forms.PictureBox();
+            this.pictureBox22 = new System.Windows.Forms.PictureBox();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox27 = new System.Windows.Forms.PictureBox();
+            this.pictureBox26 = new System.Windows.Forms.PictureBox();
+            this.pictureBox25 = new System.Windows.Forms.PictureBox();
+            this.pictureBox24 = new System.Windows.Forms.PictureBox();
+            this.pictureBox21 = new System.Windows.Forms.PictureBox();
+            this.pictureBox18 = new System.Windows.Forms.PictureBox();
+            this.pictureBox17 = new System.Windows.Forms.PictureBox();
+            this.pictureBox16 = new System.Windows.Forms.PictureBox();
+            this.pictureBox15 = new System.Windows.Forms.PictureBox();
+            this.pictureBox14 = new System.Windows.Forms.PictureBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox19 = new System.Windows.Forms.PictureBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.btnGuardar = new System.Windows.Forms.Button();
+            this.btnAtras = new System.Windows.Forms.Button();
+            this.txtRespuesta5 = new System.Windows.Forms.TextBox();
+            this.txtRespuesta4 = new System.Windows.Forms.TextBox();
+            this.txtRespuesta3 = new System.Windows.Forms.TextBox();
+            this.txtRespuesta2 = new System.Windows.Forms.TextBox();
+            this.txtRespuesta1 = new System.Windows.Forms.TextBox();
+            this.btnEditar5 = new System.Windows.Forms.Button();
+            this.btnEditar4 = new System.Windows.Forms.Button();
+            this.btnEditar3 = new System.Windows.Forms.Button();
+            this.btnEditar2 = new System.Windows.Forms.Button();
+            this.btnEditar1 = new System.Windows.Forms.Button();
+            this.Encuestas = new System.Windows.Forms.Label();
+            this.btnHacerEncuesta = new System.Windows.Forms.Button();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.btnConsultarEncuesta = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.PanelSuperior = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnReporte = new System.Windows.Forms.Button();
+            this.btnConsumo = new System.Windows.Forms.Button();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
+            this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.PanelSuperior.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // panel1
+            // 
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.panel1.Controls.Add(this.pictureBox23);
+            this.panel1.Controls.Add(this.pictureBox22);
+            this.panel1.Controls.Add(this.pictureBox13);
+            this.panel1.Controls.Add(this.pictureBox12);
+            this.panel1.Controls.Add(this.pictureBox11);
+            this.panel1.Controls.Add(this.pictureBox7);
+            this.panel1.Controls.Add(this.pictureBox27);
+            this.panel1.Controls.Add(this.pictureBox26);
+            this.panel1.Controls.Add(this.pictureBox25);
+            this.panel1.Controls.Add(this.pictureBox24);
+            this.panel1.Controls.Add(this.pictureBox21);
+            this.panel1.Controls.Add(this.pictureBox18);
+            this.panel1.Controls.Add(this.pictureBox17);
+            this.panel1.Controls.Add(this.pictureBox16);
+            this.panel1.Controls.Add(this.pictureBox15);
+            this.panel1.Controls.Add(this.pictureBox14);
+            this.panel1.Controls.Add(this.pictureBox10);
+            this.panel1.Controls.Add(this.pictureBox9);
+            this.panel1.Controls.Add(this.pictureBox8);
+            this.panel1.Controls.Add(this.pictureBox6);
+            this.panel1.Controls.Add(this.pictureBox5);
+            this.panel1.Controls.Add(this.pictureBox4);
+            this.panel1.Controls.Add(this.pictureBox19);
+            this.panel1.Controls.Add(this.panel3);
+            this.panel1.Controls.Add(this.panel4);
+            this.panel1.Controls.Add(this.btnHacerEncuesta);
+            this.panel1.Controls.Add(this.pictureBox3);
+            this.panel1.Controls.Add(this.btnConsultarEncuesta);
+            this.panel1.Controls.Add(this.panel2);
+            this.panel1.Controls.Add(this.PanelSuperior);
+            this.panel1.Location = new System.Drawing.Point(-3, -7);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1930, 942);
+            this.panel1.TabIndex = 2;
+            // 
+            // pictureBox23
+            // 
+            this.pictureBox23.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox23.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Borbuja;
+            this.pictureBox23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox23.Location = new System.Drawing.Point(1266, 803);
+            this.pictureBox23.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox23.Name = "pictureBox23";
+            this.pictureBox23.Size = new System.Drawing.Size(47, 39);
+            this.pictureBox23.TabIndex = 95;
+            this.pictureBox23.TabStop = false;
+            // 
+            // pictureBox22
+            // 
+            this.pictureBox22.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox22.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Borbuja;
+            this.pictureBox22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox22.Location = new System.Drawing.Point(996, 784);
+            this.pictureBox22.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox22.Name = "pictureBox22";
+            this.pictureBox22.Size = new System.Drawing.Size(47, 39);
+            this.pictureBox22.TabIndex = 94;
+            this.pictureBox22.TabStop = false;
+            // 
+            // pictureBox13
+            // 
+            this.pictureBox13.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox13.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Borbuja;
+            this.pictureBox13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox13.Location = new System.Drawing.Point(690, 833);
+            this.pictureBox13.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(47, 39);
+            this.pictureBox13.TabIndex = 93;
+            this.pictureBox13.TabStop = false;
+            // 
+            // pictureBox12
+            // 
+            this.pictureBox12.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox12.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Borbuja;
+            this.pictureBox12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox12.Location = new System.Drawing.Point(1444, 616);
+            this.pictureBox12.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(47, 39);
+            this.pictureBox12.TabIndex = 92;
+            this.pictureBox12.TabStop = false;
+            // 
+            // pictureBox11
+            // 
+            this.pictureBox11.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox11.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Borbuja;
+            this.pictureBox11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox11.Location = new System.Drawing.Point(1605, 751);
+            this.pictureBox11.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(47, 39);
+            this.pictureBox11.TabIndex = 91;
+            this.pictureBox11.TabStop = false;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox7.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Borbuja;
+            this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox7.Location = new System.Drawing.Point(1682, 659);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(47, 39);
+            this.pictureBox7.TabIndex = 90;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox27
+            // 
+            this.pictureBox27.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox27.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Borbuja;
+            this.pictureBox27.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox27.Location = new System.Drawing.Point(152, 395);
+            this.pictureBox27.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox27.Name = "pictureBox27";
+            this.pictureBox27.Size = new System.Drawing.Size(47, 39);
+            this.pictureBox27.TabIndex = 89;
+            this.pictureBox27.TabStop = false;
+            // 
+            // pictureBox26
+            // 
+            this.pictureBox26.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox26.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Borbuja;
+            this.pictureBox26.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox26.Location = new System.Drawing.Point(32, 454);
+            this.pictureBox26.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox26.Name = "pictureBox26";
+            this.pictureBox26.Size = new System.Drawing.Size(47, 39);
+            this.pictureBox26.TabIndex = 88;
+            this.pictureBox26.TabStop = false;
+            // 
+            // pictureBox25
+            // 
+            this.pictureBox25.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox25.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Borbuja;
+            this.pictureBox25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox25.Location = new System.Drawing.Point(152, 509);
+            this.pictureBox25.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox25.Name = "pictureBox25";
+            this.pictureBox25.Size = new System.Drawing.Size(47, 39);
+            this.pictureBox25.TabIndex = 87;
+            this.pictureBox25.TabStop = false;
+            // 
+            // pictureBox24
+            // 
+            this.pictureBox24.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox24.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Borbuja;
+            this.pictureBox24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox24.Location = new System.Drawing.Point(125, 327);
+            this.pictureBox24.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox24.Name = "pictureBox24";
+            this.pictureBox24.Size = new System.Drawing.Size(26, 28);
+            this.pictureBox24.TabIndex = 86;
+            this.pictureBox24.TabStop = false;
+            // 
+            // pictureBox21
+            // 
+            this.pictureBox21.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox21.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Borbuja;
+            this.pictureBox21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox21.Location = new System.Drawing.Point(247, 372);
+            this.pictureBox21.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox21.Name = "pictureBox21";
+            this.pictureBox21.Size = new System.Drawing.Size(47, 39);
+            this.pictureBox21.TabIndex = 85;
+            this.pictureBox21.TabStop = false;
+            // 
+            // pictureBox18
+            // 
+            this.pictureBox18.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox18.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Borbuja;
+            this.pictureBox18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox18.Location = new System.Drawing.Point(1660, 509);
+            this.pictureBox18.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox18.Name = "pictureBox18";
+            this.pictureBox18.Size = new System.Drawing.Size(47, 39);
+            this.pictureBox18.TabIndex = 83;
+            this.pictureBox18.TabStop = false;
+            // 
+            // pictureBox17
+            // 
+            this.pictureBox17.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox17.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Borbuja;
+            this.pictureBox17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox17.Location = new System.Drawing.Point(-23, 719);
+            this.pictureBox17.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox17.Name = "pictureBox17";
+            this.pictureBox17.Size = new System.Drawing.Size(47, 39);
+            this.pictureBox17.TabIndex = 82;
+            this.pictureBox17.TabStop = false;
+            // 
+            // pictureBox16
+            // 
+            this.pictureBox16.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox16.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Borbuja;
+            this.pictureBox16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox16.Location = new System.Drawing.Point(43, 824);
+            this.pictureBox16.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox16.Name = "pictureBox16";
+            this.pictureBox16.Size = new System.Drawing.Size(47, 39);
+            this.pictureBox16.TabIndex = 81;
+            this.pictureBox16.TabStop = false;
+            // 
+            // pictureBox15
+            // 
+            this.pictureBox15.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox15.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Borbuja;
+            this.pictureBox15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox15.Location = new System.Drawing.Point(1660, 706);
+            this.pictureBox15.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox15.Name = "pictureBox15";
+            this.pictureBox15.Size = new System.Drawing.Size(99, 84);
+            this.pictureBox15.TabIndex = 80;
+            this.pictureBox15.TabStop = false;
+            // 
+            // pictureBox14
+            // 
+            this.pictureBox14.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox14.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Borbuja;
+            this.pictureBox14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox14.Location = new System.Drawing.Point(32, 644);
+            this.pictureBox14.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox14.Name = "pictureBox14";
+            this.pictureBox14.Size = new System.Drawing.Size(99, 84);
+            this.pictureBox14.TabIndex = 79;
+            this.pictureBox14.TabStop = false;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox10.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Borbuja;
+            this.pictureBox10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox10.Location = new System.Drawing.Point(1463, 483);
+            this.pictureBox10.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(47, 39);
+            this.pictureBox10.TabIndex = 78;
+            this.pictureBox10.TabStop = false;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox9.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Borbuja;
+            this.pictureBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox9.Location = new System.Drawing.Point(1593, 421);
+            this.pictureBox9.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(47, 39);
+            this.pictureBox9.TabIndex = 77;
+            this.pictureBox9.TabStop = false;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox8.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Borbuja;
+            this.pictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox8.Location = new System.Drawing.Point(203, 659);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(47, 39);
+            this.pictureBox8.TabIndex = 76;
+            this.pictureBox8.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox6.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Borbuja;
+            this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox6.Location = new System.Drawing.Point(1486, 388);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(99, 84);
+            this.pictureBox6.TabIndex = 75;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox5.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Borbuja;
+            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox5.Location = new System.Drawing.Point(1541, 538);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(99, 84);
+            this.pictureBox5.TabIndex = 74;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox4.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Borbuja;
+            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox4.Location = new System.Drawing.Point(265, 751);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(47, 39);
+            this.pictureBox4.TabIndex = 73;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox19
+            // 
+            this.pictureBox19.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox19.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Borbuja;
+            this.pictureBox19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox19.Location = new System.Drawing.Point(139, 719);
+            this.pictureBox19.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox19.Name = "pictureBox19";
+            this.pictureBox19.Size = new System.Drawing.Size(99, 84);
+            this.pictureBox19.TabIndex = 72;
+            this.pictureBox19.TabStop = false;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.Cyan;
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel3.Location = new System.Drawing.Point(0, 891);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(1930, 51);
+            this.panel3.TabIndex = 32;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.White;
+            this.panel4.Controls.Add(this.btnGuardar);
+            this.panel4.Controls.Add(this.btnAtras);
+            this.panel4.Controls.Add(this.txtRespuesta5);
+            this.panel4.Controls.Add(this.txtRespuesta4);
+            this.panel4.Controls.Add(this.txtRespuesta3);
+            this.panel4.Controls.Add(this.txtRespuesta2);
+            this.panel4.Controls.Add(this.txtRespuesta1);
+            this.panel4.Controls.Add(this.btnEditar5);
+            this.panel4.Controls.Add(this.btnEditar4);
+            this.panel4.Controls.Add(this.btnEditar3);
+            this.panel4.Controls.Add(this.btnEditar2);
+            this.panel4.Controls.Add(this.btnEditar1);
+            this.panel4.Controls.Add(this.Encuestas);
+            this.panel4.Location = new System.Drawing.Point(638, 362);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(760, 415);
+            this.panel4.TabIndex = 31;
+            // 
+            // btnGuardar
+            // 
+            this.btnGuardar.BackColor = System.Drawing.Color.PowderBlue;
+            this.btnGuardar.Location = new System.Drawing.Point(547, 316);
+            this.btnGuardar.Name = "btnGuardar";
+            this.btnGuardar.Size = new System.Drawing.Size(150, 50);
+            this.btnGuardar.TabIndex = 12;
+            this.btnGuardar.Text = "Guardar";
+            this.btnGuardar.UseVisualStyleBackColor = false;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
+            // 
+            // btnAtras
+            // 
+            this.btnAtras.BackColor = System.Drawing.Color.PowderBlue;
+            this.btnAtras.Location = new System.Drawing.Point(50, 316);
+            this.btnAtras.Name = "btnAtras";
+            this.btnAtras.Size = new System.Drawing.Size(150, 50);
+            this.btnAtras.TabIndex = 11;
+            this.btnAtras.Text = "Atras";
+            this.btnAtras.UseVisualStyleBackColor = false;
+            this.btnAtras.Click += new System.EventHandler(this.btnAtras_Click);
+            // 
+            // txtRespuesta5
+            // 
+            this.txtRespuesta5.BackColor = System.Drawing.Color.PowderBlue;
+            this.txtRespuesta5.Location = new System.Drawing.Point(127, 254);
+            this.txtRespuesta5.Name = "txtRespuesta5";
+            this.txtRespuesta5.Size = new System.Drawing.Size(607, 22);
+            this.txtRespuesta5.TabIndex = 10;
+            // 
+            // txtRespuesta4
+            // 
+            this.txtRespuesta4.BackColor = System.Drawing.Color.PowderBlue;
+            this.txtRespuesta4.Location = new System.Drawing.Point(127, 210);
+            this.txtRespuesta4.Name = "txtRespuesta4";
+            this.txtRespuesta4.Size = new System.Drawing.Size(607, 22);
+            this.txtRespuesta4.TabIndex = 9;
+            // 
+            // txtRespuesta3
+            // 
+            this.txtRespuesta3.BackColor = System.Drawing.Color.PowderBlue;
+            this.txtRespuesta3.Location = new System.Drawing.Point(127, 163);
+            this.txtRespuesta3.Name = "txtRespuesta3";
+            this.txtRespuesta3.Size = new System.Drawing.Size(607, 22);
+            this.txtRespuesta3.TabIndex = 8;
+            // 
+            // txtRespuesta2
+            // 
+            this.txtRespuesta2.BackColor = System.Drawing.Color.PowderBlue;
+            this.txtRespuesta2.Location = new System.Drawing.Point(127, 121);
+            this.txtRespuesta2.Name = "txtRespuesta2";
+            this.txtRespuesta2.Size = new System.Drawing.Size(607, 22);
+            this.txtRespuesta2.TabIndex = 7;
+            // 
+            // txtRespuesta1
+            // 
+            this.txtRespuesta1.BackColor = System.Drawing.Color.PowderBlue;
+            this.txtRespuesta1.Location = new System.Drawing.Point(127, 76);
+            this.txtRespuesta1.Name = "txtRespuesta1";
+            this.txtRespuesta1.Size = new System.Drawing.Size(607, 22);
+            this.txtRespuesta1.TabIndex = 6;
+            // 
+            // btnEditar5
+            // 
+            this.btnEditar5.Location = new System.Drawing.Point(24, 254);
+            this.btnEditar5.Name = "btnEditar5";
+            this.btnEditar5.Size = new System.Drawing.Size(75, 23);
+            this.btnEditar5.TabIndex = 5;
+            this.btnEditar5.Text = "Editar";
+            this.btnEditar5.UseVisualStyleBackColor = true;
+            this.btnEditar5.Click += new System.EventHandler(this.btnEditar5_Click);
+            // 
+            // btnEditar4
+            // 
+            this.btnEditar4.Location = new System.Drawing.Point(24, 210);
+            this.btnEditar4.Name = "btnEditar4";
+            this.btnEditar4.Size = new System.Drawing.Size(75, 23);
+            this.btnEditar4.TabIndex = 4;
+            this.btnEditar4.Text = "Editar";
+            this.btnEditar4.UseVisualStyleBackColor = true;
+            this.btnEditar4.Click += new System.EventHandler(this.btnEditar4_Click);
+            // 
+            // btnEditar3
+            // 
+            this.btnEditar3.Location = new System.Drawing.Point(24, 163);
+            this.btnEditar3.Name = "btnEditar3";
+            this.btnEditar3.Size = new System.Drawing.Size(75, 23);
+            this.btnEditar3.TabIndex = 3;
+            this.btnEditar3.Text = "Editar";
+            this.btnEditar3.UseVisualStyleBackColor = true;
+            this.btnEditar3.Click += new System.EventHandler(this.btnEditar3_Click);
+            // 
+            // btnEditar2
+            // 
+            this.btnEditar2.Location = new System.Drawing.Point(24, 121);
+            this.btnEditar2.Name = "btnEditar2";
+            this.btnEditar2.Size = new System.Drawing.Size(75, 23);
+            this.btnEditar2.TabIndex = 2;
+            this.btnEditar2.Text = "Editar";
+            this.btnEditar2.UseVisualStyleBackColor = true;
+            this.btnEditar2.Click += new System.EventHandler(this.btnEditar2_Click);
+            // 
+            // btnEditar1
+            // 
+            this.btnEditar1.Location = new System.Drawing.Point(24, 76);
+            this.btnEditar1.Name = "btnEditar1";
+            this.btnEditar1.Size = new System.Drawing.Size(75, 23);
+            this.btnEditar1.TabIndex = 1;
+            this.btnEditar1.Text = "Editar";
+            this.btnEditar1.UseVisualStyleBackColor = true;
+            this.btnEditar1.Click += new System.EventHandler(this.btnEditar1_Click);
+            // 
+            // Encuestas
+            // 
+            this.Encuestas.AutoSize = true;
+            this.Encuestas.Location = new System.Drawing.Point(355, 21);
+            this.Encuestas.Name = "Encuestas";
+            this.Encuestas.Size = new System.Drawing.Size(70, 16);
+            this.Encuestas.TabIndex = 0;
+            this.Encuestas.Text = "Encuestas";
+            // 
+            // btnHacerEncuesta
+            // 
+            this.btnHacerEncuesta.Location = new System.Drawing.Point(15, 362);
+            this.btnHacerEncuesta.Name = "btnHacerEncuesta";
+            this.btnHacerEncuesta.Size = new System.Drawing.Size(110, 110);
+            this.btnHacerEncuesta.TabIndex = 30;
+            this.btnHacerEncuesta.Text = "Hacer Encuesta";
+            this.btnHacerEncuesta.UseVisualStyleBackColor = true;
+            this.btnHacerEncuesta.Click += new System.EventHandler(this.btnHacerEncuesta_Click);
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Marco_superior1;
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pictureBox3.Location = new System.Drawing.Point(0, 80);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(1930, 284);
+            this.pictureBox3.TabIndex = 29;
+            this.pictureBox3.TabStop = false;
+            // 
+            // btnConsultarEncuesta
+            // 
+            this.btnConsultarEncuesta.Location = new System.Drawing.Point(14, 529);
+            this.btnConsultarEncuesta.Name = "btnConsultarEncuesta";
+            this.btnConsultarEncuesta.Size = new System.Drawing.Size(111, 110);
+            this.btnConsultarEncuesta.TabIndex = 7;
+            this.btnConsultarEncuesta.Text = "Consultar Encuesta";
+            this.btnConsultarEncuesta.UseVisualStyleBackColor = true;
+            this.btnConsultarEncuesta.Click += new System.EventHandler(this.btnConsultarEncuesta_Click);
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.Cyan;
+            this.panel2.Controls.Add(this.pictureBox2);
+            this.panel2.Location = new System.Drawing.Point(-60, 275);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(0, 0);
+            this.panel2.TabIndex = 6;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Location = new System.Drawing.Point(917, 3);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(0, 0);
+            this.pictureBox2.TabIndex = 4;
+            this.pictureBox2.TabStop = false;
+            // 
+            // PanelSuperior
+            // 
+            this.PanelSuperior.BackColor = System.Drawing.Color.Navy;
+            this.PanelSuperior.Controls.Add(this.button1);
+            this.PanelSuperior.Controls.Add(this.pictureBox1);
+            this.PanelSuperior.Controls.Add(this.btnReporte);
+            this.PanelSuperior.Controls.Add(this.btnConsumo);
+            this.PanelSuperior.Dock = System.Windows.Forms.DockStyle.Top;
+            this.PanelSuperior.Location = new System.Drawing.Point(0, 0);
+            this.PanelSuperior.Name = "PanelSuperior";
+            this.PanelSuperior.Size = new System.Drawing.Size(1930, 80);
+            this.PanelSuperior.TabIndex = 5;
+            // 
+            // button1
+            // 
+            this.button1.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Inicio;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.Location = new System.Drawing.Point(40, 15);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(50, 50);
+            this.button1.TabIndex = 3;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 8);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(0, 0);
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
+            // 
+            // btnReporte
+            // 
+            this.btnReporte.Location = new System.Drawing.Point(380, 15);
+            this.btnReporte.Name = "btnReporte";
+            this.btnReporte.Size = new System.Drawing.Size(100, 50);
+            this.btnReporte.TabIndex = 1;
+            this.btnReporte.Text = "Reporte";
+            this.btnReporte.UseVisualStyleBackColor = true;
+            this.btnReporte.Click += new System.EventHandler(this.btnReporte_Click);
+            // 
+            // btnConsumo
+            // 
+            this.btnConsumo.Location = new System.Drawing.Point(180, 15);
+            this.btnConsumo.Name = "btnConsumo";
+            this.btnConsumo.Size = new System.Drawing.Size(100, 50);
+            this.btnConsumo.TabIndex = 0;
+            this.btnConsumo.Text = "Consumo";
+            this.btnConsumo.UseVisualStyleBackColor = true;
+            this.btnConsumo.Click += new System.EventHandler(this.btnConsumo_Click);
+            // 
+            // FormConsultas
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1924, 928);
+            this.Controls.Add(this.panel1);
+            this.Name = "FormConsultas";
+            this.Text = "FormConsultas";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormConsultas_FormClosed);
+            this.Load += new System.EventHandler(this.FormConsultas_Load);
+            this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.PanelSuperior.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.PictureBox pictureBox23;
+        private System.Windows.Forms.PictureBox pictureBox22;
+        private System.Windows.Forms.PictureBox pictureBox13;
+        private System.Windows.Forms.PictureBox pictureBox12;
+        private System.Windows.Forms.PictureBox pictureBox11;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox pictureBox27;
+        private System.Windows.Forms.PictureBox pictureBox26;
+        private System.Windows.Forms.PictureBox pictureBox25;
+        private System.Windows.Forms.PictureBox pictureBox24;
+        private System.Windows.Forms.PictureBox pictureBox21;
+        private System.Windows.Forms.PictureBox pictureBox18;
+        private System.Windows.Forms.PictureBox pictureBox17;
+        private System.Windows.Forms.PictureBox pictureBox16;
+        private System.Windows.Forms.PictureBox pictureBox15;
+        private System.Windows.Forms.PictureBox pictureBox14;
+        private System.Windows.Forms.PictureBox pictureBox10;
+        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox19;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Button btnGuardar;
+        private System.Windows.Forms.Button btnAtras;
+        private System.Windows.Forms.TextBox txtRespuesta5;
+        private System.Windows.Forms.TextBox txtRespuesta4;
+        private System.Windows.Forms.TextBox txtRespuesta3;
+        private System.Windows.Forms.TextBox txtRespuesta2;
+        private System.Windows.Forms.TextBox txtRespuesta1;
+        private System.Windows.Forms.Button btnEditar5;
+        private System.Windows.Forms.Button btnEditar4;
+        private System.Windows.Forms.Button btnEditar3;
+        private System.Windows.Forms.Button btnEditar2;
+        private System.Windows.Forms.Button btnEditar1;
+        private System.Windows.Forms.Label Encuestas;
+        private System.Windows.Forms.Button btnHacerEncuesta;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Button btnConsultarEncuesta;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Panel PanelSuperior;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button btnReporte;
+        private System.Windows.Forms.Button btnConsumo;
+    }
+}
