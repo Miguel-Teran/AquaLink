@@ -106,5 +106,12 @@ namespace ProyectoAquaLink
             Fecha2.Visible = !Fecha2.Visible;
             Fecha3.Visible = !Fecha3.Visible;
         }
+
+        private void btnAdmin_Click(object sender, EventArgs e)
+        {
+            Administracion_Usuario administracion = new Administracion_Usuario();
+            administracion.Show();
+            this.Hide();
+        }
     }
 }

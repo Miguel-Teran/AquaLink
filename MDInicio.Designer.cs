@@ -30,10 +30,29 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MDInicio));
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.btnInicio = new System.Windows.Forms.ToolStripButton();
-            this.btnSalir = new System.Windows.Forms.ToolStripButton();
-            this.btnAdmin = new System.Windows.Forms.ToolStripButton();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panelDesplegable = new System.Windows.Forms.Panel();
+            this.Limpiar = new System.Windows.Forms.Button();
+            this.Notificacion8 = new System.Windows.Forms.Label();
+            this.Notificacion7 = new System.Windows.Forms.Label();
+            this.Fecha3 = new System.Windows.Forms.Label();
+            this.Notificacion6 = new System.Windows.Forms.Label();
+            this.Notificacion5 = new System.Windows.Forms.Label();
+            this.Notificacion4 = new System.Windows.Forms.Label();
+            this.Fecha2 = new System.Windows.Forms.Label();
+            this.Fecha1 = new System.Windows.Forms.Label();
+            this.Notificacion3 = new System.Windows.Forms.Label();
+            this.Notificacion2 = new System.Windows.Forms.Label();
+            this.Notificacion1 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.buttonNtf = new System.Windows.Forms.Button();
+            this.btnEncuestas = new System.Windows.Forms.Button();
+            this.btnReporte = new System.Windows.Forms.Button();
+            this.btnConsumo = new System.Windows.Forms.Button();
+            this.Tema = new System.Windows.Forms.Button();
+            this.pictureBox25 = new System.Windows.Forms.PictureBox();
             this.pictureBox24 = new System.Windows.Forms.PictureBox();
             this.pictureBox23 = new System.Windows.Forms.PictureBox();
             this.pictureBox22 = new System.Windows.Forms.PictureBox();
@@ -42,8 +61,6 @@
             this.pictureBox19 = new System.Windows.Forms.PictureBox();
             this.pictureBox18 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.buttonNtf = new System.Windows.Forms.Button();
-            this.panelDesplegable = new System.Windows.Forms.Panel();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
@@ -58,28 +75,13 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.btnEncuestas = new System.Windows.Forms.Button();
-            this.btnReporte = new System.Windows.Forms.Button();
-            this.btnConsumo = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.Notificacion8 = new System.Windows.Forms.Label();
-            this.Notificacion7 = new System.Windows.Forms.Label();
-            this.Fecha3 = new System.Windows.Forms.Label();
-            this.Notificacion6 = new System.Windows.Forms.Label();
-            this.Notificacion5 = new System.Windows.Forms.Label();
-            this.Notificacion4 = new System.Windows.Forms.Label();
-            this.Fecha2 = new System.Windows.Forms.Label();
-            this.Fecha1 = new System.Windows.Forms.Label();
-            this.Notificacion3 = new System.Windows.Forms.Label();
-            this.Notificacion2 = new System.Windows.Forms.Label();
-            this.Notificacion1 = new System.Windows.Forms.Label();
-            this.pictureBox25 = new System.Windows.Forms.PictureBox();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.Tema = new System.Windows.Forms.Button();
-            this.Limpiar = new System.Windows.Forms.Button();
+            this.btnInicio = new System.Windows.Forms.ToolStripButton();
+            this.btnSalir = new System.Windows.Forms.ToolStripButton();
+            this.btnAdmin = new System.Windows.Forms.ToolStripButton();
             this.toolStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.panelDesplegable.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
@@ -88,7 +90,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.panelDesplegable.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
@@ -103,7 +104,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
             this.SuspendLayout();
             // 
             // toolStrip1
@@ -119,35 +119,6 @@
             this.toolStrip1.Size = new System.Drawing.Size(1083, 27);
             this.toolStrip1.TabIndex = 9;
             this.toolStrip1.Text = "toolStrip1";
-            // 
-            // btnInicio
-            // 
-            this.btnInicio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnInicio.Image = ((System.Drawing.Image)(resources.GetObject("btnInicio.Image")));
-            this.btnInicio.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.btnInicio.Name = "btnInicio";
-            this.btnInicio.Size = new System.Drawing.Size(60, 24);
-            this.btnInicio.Text = "Inicio";
-            this.btnInicio.Click += new System.EventHandler(this.btnInicio_Click);
-            // 
-            // btnSalir
-            // 
-            this.btnSalir.Image = ((System.Drawing.Image)(resources.GetObject("btnSalir.Image")));
-            this.btnSalir.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(53, 24);
-            this.btnSalir.Text = "Salir";
-            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
-            // 
-            // btnAdmin
-            // 
-            this.btnAdmin.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.btnAdmin.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.btnAdmin.Image = ((System.Drawing.Image)(resources.GetObject("btnAdmin.Image")));
-            this.btnAdmin.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.btnAdmin.Name = "btnAdmin";
-            this.btnAdmin.Size = new System.Drawing.Size(24, 24);
-            this.btnAdmin.Text = "toolStripButton1";
             // 
             // panel1
             // 
@@ -185,6 +156,267 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1083, 689);
             this.panel1.TabIndex = 10;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.Cyan;
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel2.Location = new System.Drawing.Point(0, 644);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1083, 45);
+            this.panel2.TabIndex = 55;
+            // 
+            // panelDesplegable
+            // 
+            this.panelDesplegable.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.panelDesplegable.BackColor = System.Drawing.Color.LightCyan;
+            this.panelDesplegable.Controls.Add(this.Limpiar);
+            this.panelDesplegable.Controls.Add(this.Notificacion8);
+            this.panelDesplegable.Controls.Add(this.Notificacion7);
+            this.panelDesplegable.Controls.Add(this.Fecha3);
+            this.panelDesplegable.Controls.Add(this.Notificacion6);
+            this.panelDesplegable.Controls.Add(this.Notificacion5);
+            this.panelDesplegable.Controls.Add(this.Notificacion4);
+            this.panelDesplegable.Controls.Add(this.Fecha2);
+            this.panelDesplegable.Controls.Add(this.Fecha1);
+            this.panelDesplegable.Controls.Add(this.Notificacion3);
+            this.panelDesplegable.Controls.Add(this.Notificacion2);
+            this.panelDesplegable.Controls.Add(this.Notificacion1);
+            this.panelDesplegable.Controls.Add(this.label1);
+            this.panelDesplegable.Controls.Add(this.label4);
+            this.panelDesplegable.Location = new System.Drawing.Point(90, 152);
+            this.panelDesplegable.Name = "panelDesplegable";
+            this.panelDesplegable.Size = new System.Drawing.Size(217, 488);
+            this.panelDesplegable.TabIndex = 44;
+            this.panelDesplegable.Visible = false;
+            // 
+            // Limpiar
+            // 
+            this.Limpiar.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.Limpiar.Location = new System.Drawing.Point(136, 447);
+            this.Limpiar.Name = "Limpiar";
+            this.Limpiar.Size = new System.Drawing.Size(75, 23);
+            this.Limpiar.TabIndex = 57;
+            this.Limpiar.Text = "Limpiar";
+            this.Limpiar.UseVisualStyleBackColor = false;
+            this.Limpiar.Click += new System.EventHandler(this.Limpiar_Click);
+            // 
+            // Notificacion8
+            // 
+            this.Notificacion8.AutoSize = true;
+            this.Notificacion8.BackColor = System.Drawing.Color.Silver;
+            this.Notificacion8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Notificacion8.Location = new System.Drawing.Point(3, 286);
+            this.Notificacion8.Name = "Notificacion8";
+            this.Notificacion8.Size = new System.Drawing.Size(149, 15);
+            this.Notificacion8.TabIndex = 38;
+            this.Notificacion8.Text = "\"No hay cortes programados\"";
+            // 
+            // Notificacion7
+            // 
+            this.Notificacion7.AutoSize = true;
+            this.Notificacion7.BackColor = System.Drawing.Color.Silver;
+            this.Notificacion7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Notificacion7.Location = new System.Drawing.Point(3, 259);
+            this.Notificacion7.Name = "Notificacion7";
+            this.Notificacion7.Size = new System.Drawing.Size(127, 15);
+            this.Notificacion7.TabIndex = 37;
+            this.Notificacion7.Text = "\"Su consumo es regular\"";
+            // 
+            // Fecha3
+            // 
+            this.Fecha3.AutoSize = true;
+            this.Fecha3.Location = new System.Drawing.Point(0, 246);
+            this.Fecha3.Name = "Fecha3";
+            this.Fecha3.Size = new System.Drawing.Size(65, 13);
+            this.Fecha3.TabIndex = 36;
+            this.Fecha3.Text = "02/08/2025";
+            // 
+            // Notificacion6
+            // 
+            this.Notificacion6.AutoSize = true;
+            this.Notificacion6.BackColor = System.Drawing.Color.Silver;
+            this.Notificacion6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Notificacion6.Location = new System.Drawing.Point(3, 211);
+            this.Notificacion6.Name = "Notificacion6";
+            this.Notificacion6.Size = new System.Drawing.Size(208, 15);
+            this.Notificacion6.TabIndex = 35;
+            this.Notificacion6.Text = "\"El suministro de reanudara a las 3:30PM\"";
+            // 
+            // Notificacion5
+            // 
+            this.Notificacion5.AutoSize = true;
+            this.Notificacion5.BackColor = System.Drawing.Color.Silver;
+            this.Notificacion5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Notificacion5.Location = new System.Drawing.Point(3, 179);
+            this.Notificacion5.Name = "Notificacion5";
+            this.Notificacion5.Size = new System.Drawing.Size(186, 15);
+            this.Notificacion5.TabIndex = 34;
+            this.Notificacion5.Text = "\"Se programa un corte a las 1:20PM\"";
+            // 
+            // Notificacion4
+            // 
+            this.Notificacion4.AutoSize = true;
+            this.Notificacion4.BackColor = System.Drawing.Color.Silver;
+            this.Notificacion4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Notificacion4.Location = new System.Drawing.Point(3, 148);
+            this.Notificacion4.Name = "Notificacion4";
+            this.Notificacion4.Size = new System.Drawing.Size(127, 15);
+            this.Notificacion4.TabIndex = 33;
+            this.Notificacion4.Text = "\"Su consumo es regular\"";
+            // 
+            // Fecha2
+            // 
+            this.Fecha2.AutoSize = true;
+            this.Fecha2.Location = new System.Drawing.Point(0, 135);
+            this.Fecha2.Name = "Fecha2";
+            this.Fecha2.Size = new System.Drawing.Size(65, 13);
+            this.Fecha2.TabIndex = 32;
+            this.Fecha2.Text = "03/08/2025";
+            // 
+            // Fecha1
+            // 
+            this.Fecha1.AutoSize = true;
+            this.Fecha1.Location = new System.Drawing.Point(0, 19);
+            this.Fecha1.Name = "Fecha1";
+            this.Fecha1.Size = new System.Drawing.Size(65, 13);
+            this.Fecha1.TabIndex = 31;
+            this.Fecha1.Text = "04/08/2025";
+            // 
+            // Notificacion3
+            // 
+            this.Notificacion3.AutoSize = true;
+            this.Notificacion3.BackColor = System.Drawing.Color.Silver;
+            this.Notificacion3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Notificacion3.Location = new System.Drawing.Point(3, 98);
+            this.Notificacion3.Name = "Notificacion3";
+            this.Notificacion3.Size = new System.Drawing.Size(208, 15);
+            this.Notificacion3.TabIndex = 30;
+            this.Notificacion3.Text = "\"El suministro de reanudara a las 6:30PM\"";
+            // 
+            // Notificacion2
+            // 
+            this.Notificacion2.AutoSize = true;
+            this.Notificacion2.BackColor = System.Drawing.Color.Silver;
+            this.Notificacion2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Notificacion2.Location = new System.Drawing.Point(3, 63);
+            this.Notificacion2.Name = "Notificacion2";
+            this.Notificacion2.Size = new System.Drawing.Size(186, 15);
+            this.Notificacion2.TabIndex = 29;
+            this.Notificacion2.Text = "\"Se programa un corte a las 5:00PM\"";
+            // 
+            // Notificacion1
+            // 
+            this.Notificacion1.AutoSize = true;
+            this.Notificacion1.BackColor = System.Drawing.Color.Silver;
+            this.Notificacion1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Notificacion1.Location = new System.Drawing.Point(3, 32);
+            this.Notificacion1.Name = "Notificacion1";
+            this.Notificacion1.Size = new System.Drawing.Size(112, 15);
+            this.Notificacion1.TabIndex = 28;
+            this.Notificacion1.Text = "\"Su consumo es alto\"";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Cyan;
+            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label1.Location = new System.Drawing.Point(-20, 473);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(246, 15);
+            this.label1.TabIndex = 27;
+            this.label1.Text = "                                                                               ";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Cyan;
+            this.label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label4.Location = new System.Drawing.Point(-20, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(246, 15);
+            this.label4.TabIndex = 26;
+            this.label4.Text = "                                                                               ";
+            // 
+            // buttonNtf
+            // 
+            this.buttonNtf.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.buttonNtf.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.buttonNtf.Location = new System.Drawing.Point(21, 611);
+            this.buttonNtf.Name = "buttonNtf";
+            this.buttonNtf.Size = new System.Drawing.Size(63, 23);
+            this.buttonNtf.TabIndex = 45;
+            this.buttonNtf.Text = "Desplegar";
+            this.buttonNtf.UseVisualStyleBackColor = false;
+            this.buttonNtf.Click += new System.EventHandler(this.buttonNtf_Click);
+            // 
+            // btnEncuestas
+            // 
+            this.btnEncuestas.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnEncuestas.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnEncuestas.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEncuestas.ForeColor = System.Drawing.Color.Black;
+            this.btnEncuestas.Location = new System.Drawing.Point(766, 460);
+            this.btnEncuestas.Name = "btnEncuestas";
+            this.btnEncuestas.Size = new System.Drawing.Size(150, 81);
+            this.btnEncuestas.TabIndex = 26;
+            this.btnEncuestas.Text = "Encuestas";
+            this.btnEncuestas.UseVisualStyleBackColor = false;
+            this.btnEncuestas.Click += new System.EventHandler(this.btnEncuestas_Click);
+            // 
+            // btnReporte
+            // 
+            this.btnReporte.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnReporte.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnReporte.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReporte.ForeColor = System.Drawing.Color.Black;
+            this.btnReporte.Location = new System.Drawing.Point(466, 460);
+            this.btnReporte.Name = "btnReporte";
+            this.btnReporte.Size = new System.Drawing.Size(150, 81);
+            this.btnReporte.TabIndex = 25;
+            this.btnReporte.Text = "Reporte";
+            this.btnReporte.UseVisualStyleBackColor = false;
+            this.btnReporte.Click += new System.EventHandler(this.btnReporte_Click_1);
+            // 
+            // btnConsumo
+            // 
+            this.btnConsumo.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnConsumo.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnConsumo.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConsumo.ForeColor = System.Drawing.Color.Black;
+            this.btnConsumo.Location = new System.Drawing.Point(166, 460);
+            this.btnConsumo.Name = "btnConsumo";
+            this.btnConsumo.Size = new System.Drawing.Size(150, 81);
+            this.btnConsumo.TabIndex = 24;
+            this.btnConsumo.Text = "Consumo";
+            this.btnConsumo.UseVisualStyleBackColor = false;
+            this.btnConsumo.Click += new System.EventHandler(this.btnConsumo_Click_1);
+            // 
+            // Tema
+            // 
+            this.Tema.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.Tema.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.Tema.Location = new System.Drawing.Point(979, 4);
+            this.Tema.Name = "Tema";
+            this.Tema.Size = new System.Drawing.Size(75, 23);
+            this.Tema.TabIndex = 56;
+            this.Tema.Text = "Tema";
+            this.Tema.UseVisualStyleBackColor = false;
+            this.Tema.Click += new System.EventHandler(this.Tema_Click);
+            // 
+            // pictureBox25
+            // 
+            this.pictureBox25.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.pictureBox25.BackColor = System.Drawing.Color.Cyan;
+            this.pictureBox25.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox25.BackgroundImage")));
+            this.pictureBox25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox25.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox25.Location = new System.Drawing.Point(29, 570);
+            this.pictureBox25.Name = "pictureBox25";
+            this.pictureBox25.Size = new System.Drawing.Size(37, 35);
+            this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox25.TabIndex = 54;
+            this.pictureBox25.TabStop = false;
             // 
             // pictureBox24
             // 
@@ -273,42 +505,6 @@
             this.pictureBox2.Size = new System.Drawing.Size(91, 84);
             this.pictureBox2.TabIndex = 46;
             this.pictureBox2.TabStop = false;
-            // 
-            // buttonNtf
-            // 
-            this.buttonNtf.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.buttonNtf.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.buttonNtf.Location = new System.Drawing.Point(21, 611);
-            this.buttonNtf.Name = "buttonNtf";
-            this.buttonNtf.Size = new System.Drawing.Size(63, 23);
-            this.buttonNtf.TabIndex = 45;
-            this.buttonNtf.Text = "Desplegar";
-            this.buttonNtf.UseVisualStyleBackColor = false;
-            this.buttonNtf.Click += new System.EventHandler(this.buttonNtf_Click);
-            // 
-            // panelDesplegable
-            // 
-            this.panelDesplegable.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.panelDesplegable.BackColor = System.Drawing.Color.LightCyan;
-            this.panelDesplegable.Controls.Add(this.Limpiar);
-            this.panelDesplegable.Controls.Add(this.Notificacion8);
-            this.panelDesplegable.Controls.Add(this.Notificacion7);
-            this.panelDesplegable.Controls.Add(this.Fecha3);
-            this.panelDesplegable.Controls.Add(this.Notificacion6);
-            this.panelDesplegable.Controls.Add(this.Notificacion5);
-            this.panelDesplegable.Controls.Add(this.Notificacion4);
-            this.panelDesplegable.Controls.Add(this.Fecha2);
-            this.panelDesplegable.Controls.Add(this.Fecha1);
-            this.panelDesplegable.Controls.Add(this.Notificacion3);
-            this.panelDesplegable.Controls.Add(this.Notificacion2);
-            this.panelDesplegable.Controls.Add(this.Notificacion1);
-            this.panelDesplegable.Controls.Add(this.label1);
-            this.panelDesplegable.Controls.Add(this.label4);
-            this.panelDesplegable.Location = new System.Drawing.Point(90, 152);
-            this.panelDesplegable.Name = "panelDesplegable";
-            this.panelDesplegable.Size = new System.Drawing.Size(217, 488);
-            this.panelDesplegable.TabIndex = 44;
-            this.panelDesplegable.Visible = false;
             // 
             // pictureBox15
             // 
@@ -465,230 +661,35 @@
             this.pictureBox3.TabIndex = 28;
             this.pictureBox3.TabStop = false;
             // 
-            // btnEncuestas
+            // btnInicio
             // 
-            this.btnEncuestas.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnEncuestas.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.btnEncuestas.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEncuestas.ForeColor = System.Drawing.Color.Black;
-            this.btnEncuestas.Location = new System.Drawing.Point(766, 460);
-            this.btnEncuestas.Name = "btnEncuestas";
-            this.btnEncuestas.Size = new System.Drawing.Size(150, 81);
-            this.btnEncuestas.TabIndex = 26;
-            this.btnEncuestas.Text = "Encuestas";
-            this.btnEncuestas.UseVisualStyleBackColor = false;
-            this.btnEncuestas.Click += new System.EventHandler(this.btnEncuestas_Click);
+            this.btnInicio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnInicio.Image = ((System.Drawing.Image)(resources.GetObject("btnInicio.Image")));
+            this.btnInicio.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnInicio.Name = "btnInicio";
+            this.btnInicio.Size = new System.Drawing.Size(60, 24);
+            this.btnInicio.Text = "Inicio";
+            this.btnInicio.Click += new System.EventHandler(this.btnInicio_Click);
             // 
-            // btnReporte
+            // btnSalir
             // 
-            this.btnReporte.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnReporte.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.btnReporte.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReporte.ForeColor = System.Drawing.Color.Black;
-            this.btnReporte.Location = new System.Drawing.Point(466, 460);
-            this.btnReporte.Name = "btnReporte";
-            this.btnReporte.Size = new System.Drawing.Size(150, 81);
-            this.btnReporte.TabIndex = 25;
-            this.btnReporte.Text = "Reporte";
-            this.btnReporte.UseVisualStyleBackColor = false;
-            this.btnReporte.Click += new System.EventHandler(this.btnReporte_Click_1);
+            this.btnSalir.Image = ((System.Drawing.Image)(resources.GetObject("btnSalir.Image")));
+            this.btnSalir.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(53, 24);
+            this.btnSalir.Text = "Salir";
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
-            // btnConsumo
+            // btnAdmin
             // 
-            this.btnConsumo.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnConsumo.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.btnConsumo.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConsumo.ForeColor = System.Drawing.Color.Black;
-            this.btnConsumo.Location = new System.Drawing.Point(166, 460);
-            this.btnConsumo.Name = "btnConsumo";
-            this.btnConsumo.Size = new System.Drawing.Size(150, 81);
-            this.btnConsumo.TabIndex = 24;
-            this.btnConsumo.Text = "Consumo";
-            this.btnConsumo.UseVisualStyleBackColor = false;
-            this.btnConsumo.Click += new System.EventHandler(this.btnConsumo_Click_1);
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Cyan;
-            this.label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label4.Location = new System.Drawing.Point(-20, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(246, 15);
-            this.label4.TabIndex = 26;
-            this.label4.Text = "                                                                               ";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Cyan;
-            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label1.Location = new System.Drawing.Point(-20, 473);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(246, 15);
-            this.label1.TabIndex = 27;
-            this.label1.Text = "                                                                               ";
-            // 
-            // Notificacion8
-            // 
-            this.Notificacion8.AutoSize = true;
-            this.Notificacion8.BackColor = System.Drawing.Color.Silver;
-            this.Notificacion8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Notificacion8.Location = new System.Drawing.Point(3, 286);
-            this.Notificacion8.Name = "Notificacion8";
-            this.Notificacion8.Size = new System.Drawing.Size(149, 15);
-            this.Notificacion8.TabIndex = 38;
-            this.Notificacion8.Text = "\"No hay cortes programados\"";
-            // 
-            // Notificacion7
-            // 
-            this.Notificacion7.AutoSize = true;
-            this.Notificacion7.BackColor = System.Drawing.Color.Silver;
-            this.Notificacion7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Notificacion7.Location = new System.Drawing.Point(3, 259);
-            this.Notificacion7.Name = "Notificacion7";
-            this.Notificacion7.Size = new System.Drawing.Size(127, 15);
-            this.Notificacion7.TabIndex = 37;
-            this.Notificacion7.Text = "\"Su consumo es regular\"";
-            // 
-            // Fecha3
-            // 
-            this.Fecha3.AutoSize = true;
-            this.Fecha3.Location = new System.Drawing.Point(0, 246);
-            this.Fecha3.Name = "Fecha3";
-            this.Fecha3.Size = new System.Drawing.Size(65, 13);
-            this.Fecha3.TabIndex = 36;
-            this.Fecha3.Text = "02/08/2025";
-            // 
-            // Notificacion6
-            // 
-            this.Notificacion6.AutoSize = true;
-            this.Notificacion6.BackColor = System.Drawing.Color.Silver;
-            this.Notificacion6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Notificacion6.Location = new System.Drawing.Point(3, 211);
-            this.Notificacion6.Name = "Notificacion6";
-            this.Notificacion6.Size = new System.Drawing.Size(208, 15);
-            this.Notificacion6.TabIndex = 35;
-            this.Notificacion6.Text = "\"El suministro de reanudara a las 3:30PM\"";
-            // 
-            // Notificacion5
-            // 
-            this.Notificacion5.AutoSize = true;
-            this.Notificacion5.BackColor = System.Drawing.Color.Silver;
-            this.Notificacion5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Notificacion5.Location = new System.Drawing.Point(3, 179);
-            this.Notificacion5.Name = "Notificacion5";
-            this.Notificacion5.Size = new System.Drawing.Size(186, 15);
-            this.Notificacion5.TabIndex = 34;
-            this.Notificacion5.Text = "\"Se programa un corte a las 1:20PM\"";
-            // 
-            // Notificacion4
-            // 
-            this.Notificacion4.AutoSize = true;
-            this.Notificacion4.BackColor = System.Drawing.Color.Silver;
-            this.Notificacion4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Notificacion4.Location = new System.Drawing.Point(3, 148);
-            this.Notificacion4.Name = "Notificacion4";
-            this.Notificacion4.Size = new System.Drawing.Size(127, 15);
-            this.Notificacion4.TabIndex = 33;
-            this.Notificacion4.Text = "\"Su consumo es regular\"";
-            // 
-            // Fecha2
-            // 
-            this.Fecha2.AutoSize = true;
-            this.Fecha2.Location = new System.Drawing.Point(0, 135);
-            this.Fecha2.Name = "Fecha2";
-            this.Fecha2.Size = new System.Drawing.Size(65, 13);
-            this.Fecha2.TabIndex = 32;
-            this.Fecha2.Text = "03/08/2025";
-            // 
-            // Fecha1
-            // 
-            this.Fecha1.AutoSize = true;
-            this.Fecha1.Location = new System.Drawing.Point(0, 19);
-            this.Fecha1.Name = "Fecha1";
-            this.Fecha1.Size = new System.Drawing.Size(65, 13);
-            this.Fecha1.TabIndex = 31;
-            this.Fecha1.Text = "04/08/2025";
-            // 
-            // Notificacion3
-            // 
-            this.Notificacion3.AutoSize = true;
-            this.Notificacion3.BackColor = System.Drawing.Color.Silver;
-            this.Notificacion3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Notificacion3.Location = new System.Drawing.Point(3, 98);
-            this.Notificacion3.Name = "Notificacion3";
-            this.Notificacion3.Size = new System.Drawing.Size(208, 15);
-            this.Notificacion3.TabIndex = 30;
-            this.Notificacion3.Text = "\"El suministro de reanudara a las 6:30PM\"";
-            // 
-            // Notificacion2
-            // 
-            this.Notificacion2.AutoSize = true;
-            this.Notificacion2.BackColor = System.Drawing.Color.Silver;
-            this.Notificacion2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Notificacion2.Location = new System.Drawing.Point(3, 63);
-            this.Notificacion2.Name = "Notificacion2";
-            this.Notificacion2.Size = new System.Drawing.Size(186, 15);
-            this.Notificacion2.TabIndex = 29;
-            this.Notificacion2.Text = "\"Se programa un corte a las 5:00PM\"";
-            // 
-            // Notificacion1
-            // 
-            this.Notificacion1.AutoSize = true;
-            this.Notificacion1.BackColor = System.Drawing.Color.Silver;
-            this.Notificacion1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Notificacion1.Location = new System.Drawing.Point(3, 32);
-            this.Notificacion1.Name = "Notificacion1";
-            this.Notificacion1.Size = new System.Drawing.Size(112, 15);
-            this.Notificacion1.TabIndex = 28;
-            this.Notificacion1.Text = "\"Su consumo es alto\"";
-            // 
-            // pictureBox25
-            // 
-            this.pictureBox25.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.pictureBox25.BackColor = System.Drawing.Color.Cyan;
-            this.pictureBox25.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox25.BackgroundImage")));
-            this.pictureBox25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox25.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox25.Location = new System.Drawing.Point(29, 570);
-            this.pictureBox25.Name = "pictureBox25";
-            this.pictureBox25.Size = new System.Drawing.Size(37, 35);
-            this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox25.TabIndex = 54;
-            this.pictureBox25.TabStop = false;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.Cyan;
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 644);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1083, 45);
-            this.panel2.TabIndex = 55;
-            // 
-            // Tema
-            // 
-            this.Tema.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.Tema.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.Tema.Location = new System.Drawing.Point(979, 4);
-            this.Tema.Name = "Tema";
-            this.Tema.Size = new System.Drawing.Size(75, 23);
-            this.Tema.TabIndex = 56;
-            this.Tema.Text = "Tema";
-            this.Tema.UseVisualStyleBackColor = false;
-            this.Tema.Click += new System.EventHandler(this.Tema_Click);
-            // 
-            // Limpiar
-            // 
-            this.Limpiar.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.Limpiar.Location = new System.Drawing.Point(136, 447);
-            this.Limpiar.Name = "Limpiar";
-            this.Limpiar.Size = new System.Drawing.Size(75, 23);
-            this.Limpiar.TabIndex = 57;
-            this.Limpiar.Text = "Limpiar";
-            this.Limpiar.UseVisualStyleBackColor = false;
-            this.Limpiar.Click += new System.EventHandler(this.Limpiar_Click);
+            this.btnAdmin.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.btnAdmin.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.btnAdmin.Image = ((System.Drawing.Image)(resources.GetObject("btnAdmin.Image")));
+            this.btnAdmin.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnAdmin.Name = "btnAdmin";
+            this.btnAdmin.Size = new System.Drawing.Size(24, 24);
+            this.btnAdmin.Text = "toolStripButton1";
+            this.btnAdmin.Click += new System.EventHandler(this.btnAdmin_Click);
             // 
             // MDInicio
             // 
@@ -708,6 +709,9 @@
             this.toolStrip1.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panelDesplegable.ResumeLayout(false);
+            this.panelDesplegable.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
@@ -716,8 +720,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.panelDesplegable.ResumeLayout(false);
-            this.panelDesplegable.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
@@ -732,7 +734,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

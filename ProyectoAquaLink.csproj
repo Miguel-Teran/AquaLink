@@ -61,6 +61,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Administracion_Usuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administracion_Usuario.Designer.cs">
+      <DependentUpon>Administracion_Usuario.cs</DependentUpon>
+    </Compile>
     <Compile Include="Encuestas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -141,6 +147,9 @@
     <Compile Include="SeleccionEncuesta.Designer.cs">
       <DependentUpon>SeleccionEncuesta.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Administracion_Usuario.resx">
+      <DependentUpon>Administracion_Usuario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Encuestas.resx">
       <DependentUpon>Encuestas.cs</DependentUpon>
     </EmbeddedResource>
@@ -205,6 +214,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Inconos\acceso.png" />
+    <None Include="Inconos\Actualizar-Usuario.png" />
     <Content Include="Inconos\administracion.png" />
     <None Include="Inconos\año.png" />
     <Content Include="Inconos\Borbuja.png" />
@@ -213,6 +223,8 @@
     <Content Include="Inconos\Campanita.png" />
     <Content Include="Inconos\cheque.png" />
     <None Include="Inconos\filtrar.png" />
+    <None Include="Inconos\Eliminar-Usuario.png" />
+    <None Include="Inconos\Enlistar-Usuario.png" />
     <Content Include="Inconos\Inicio.png" />
     <Content Include="Inconos\LOGO.png" />
     <Content Include="Inconos\Marco superior.png" />
