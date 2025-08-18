@@ -63,5 +63,12 @@ namespace ProyectoAquaLink
             encuestas.Show();
             this.Hide();
         }
+
+        private void btnAdmi_Click(object sender, EventArgs e)
+        {
+            frmAdmiReporte admirepor = new frmAdmiReporte();
+            admirepor.Show();
+            this.Hide();
+        }
     }
 }

@@ -93,6 +93,16 @@ namespace ProyectoAquaLink.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap administracion1 {
+            get {
+                object obj = ResourceManager.GetObject("administracion1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap año {
             get {
                 object obj = ResourceManager.GetObject("año", resourceCulture);

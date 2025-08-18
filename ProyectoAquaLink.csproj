@@ -67,6 +67,7 @@
     <Compile Include="Administracion_Usuario.Designer.cs">
       <DependentUpon>Administracion_Usuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="Conexion.cs" />
     <Compile Include="Encuestas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +85,12 @@
     </Compile>
     <Compile Include="Formulario ejemplo.Designer.cs">
       <DependentUpon>Formulario ejemplo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdmiReporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdmiReporte.Designer.cs">
+      <DependentUpon>frmAdmiReporte.cs</DependentUpon>
     </Compile>
     <Compile Include="frmAgregarReporte.cs">
       <SubType>Form</SubType>
@@ -141,6 +148,8 @@
     <Compile Include="Registro.Designer.cs">
       <DependentUpon>Registro.cs</DependentUpon>
     </Compile>
+    <Compile Include="Reporte.cs" />
+    <Compile Include="ReporteControlador.cs" />
     <Compile Include="SeleccionEncuesta.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -158,6 +167,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formulario ejemplo.resx">
       <DependentUpon>Formulario ejemplo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdmiReporte.resx">
+      <DependentUpon>frmAdmiReporte.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmAgregarReporte.resx">
       <DependentUpon>frmAgregarReporte.cs</DependentUpon>

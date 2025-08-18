@@ -35,6 +35,7 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.pnlReportes = new System.Windows.Forms.Panel();
+            this.btnAdmi = new System.Windows.Forms.Button();
             this.btnInicio = new System.Windows.Forms.Button();
             this.btnEstatus = new System.Windows.Forms.Button();
             this.btnAgregar = new System.Windows.Forms.Button();
@@ -47,6 +48,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.DarkBlue;
+            this.panel1.Controls.Add(this.btnAdmi);
             this.panel1.Controls.Add(this.btnConsumo);
             this.panel1.Controls.Add(this.btnEncuestas);
             this.panel1.Controls.Add(this.btnInicio);
@@ -112,6 +114,17 @@
             this.pnlReportes.Name = "pnlReportes";
             this.pnlReportes.Size = new System.Drawing.Size(1820, 655);
             this.pnlReportes.TabIndex = 2;
+            // 
+            // btnAdmi
+            // 
+            this.btnAdmi.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnAdmi.BackgroundImage")));
+            this.btnAdmi.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnAdmi.Location = new System.Drawing.Point(1822, 12);
+            this.btnAdmi.Name = "btnAdmi";
+            this.btnAdmi.Size = new System.Drawing.Size(75, 53);
+            this.btnAdmi.TabIndex = 3;
+            this.btnAdmi.UseVisualStyleBackColor = true;
+            this.btnAdmi.Click += new System.EventHandler(this.btnAdmi_Click);
             // 
             // btnInicio
             // 
@@ -196,5 +209,6 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button btnEstatus;
         private System.Windows.Forms.Button btnTerminados;
+        private System.Windows.Forms.Button btnAdmi;
     }
 }
