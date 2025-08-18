@@ -67,6 +67,7 @@
     <Compile Include="Administracion_Usuario.Designer.cs">
       <DependentUpon>Administracion_Usuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="CLSRegistro.cs" />
     <Compile Include="Conexion.cs" />
     <Compile Include="Encuestas.cs">
       <SubType>Form</SubType>
@@ -148,6 +149,7 @@
     <Compile Include="Registro.Designer.cs">
       <DependentUpon>Registro.cs</DependentUpon>
     </Compile>
+    <Compile Include="Registro_Controlador.cs" />
     <Compile Include="Reporte.cs" />
     <Compile Include="ReporteControlador.cs" />
     <Compile Include="SeleccionEncuesta.cs">
