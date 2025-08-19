@@ -19,14 +19,23 @@ namespace ProyectoAquaLink
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MDInicio mDInicio = new MDInicio();
-            mDInicio.Show();
-            this.Hide();
+            int idusuario;
+            string email, contraseña;
+
+            idusuario = Convert.ToInt32(UsuarioR.Text.Trim());
+            email = EmailR.Text.Trim();
+            contraseña = EmailR.Text.Trim();
+            CLSRegistro reg = new CLSRegistro(idusuario, email, contraseña);
         }
 
         private void Registro_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }

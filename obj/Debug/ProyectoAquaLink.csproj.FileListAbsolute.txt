@@ -161,3 +161,4 @@ C:\Users\joset\OneDrive\Escritorio\AquaLink\obj\Debug\ProyectoAquaLink.csproj.Co
 C:\Users\joset\OneDrive\Escritorio\AquaLink\obj\Debug\ProyectoAquaLink.exe
 C:\Users\joset\OneDrive\Escritorio\AquaLink\obj\Debug\ProyectoAquaLink.pdb
 C:\Users\joset\OneDrive\Escritorio\AquaLink\obj\Debug\ProyectoAquaLink.frmAdmiReporte.resources
+C:\Users\Javi\AquaLink\obj\Debug\ProyectoAquaLink.frmAdmiReporte.resources
