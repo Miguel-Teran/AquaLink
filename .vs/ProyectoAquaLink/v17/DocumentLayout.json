@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Javi\\AquaLink\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|C:\\Users\\Javi\\AquaLink\\administracion_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|solutionrelative:administracion_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|C:\\Users\\Javi\\AquaLink\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|solutionrelative:registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|c:\\users\\javi\\aqualink\\registro_controlador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|solutionrelative:registro_controlador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,28 +19,12 @@
       "RelativeMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|solutionrelative:registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|C:\\Users\\Javi\\AquaLink\\clsregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|solutionrelative:clsregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|C:\\Users\\Javi\\AquaLink\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|solutionrelative:registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|C:\\Users\\Javi\\AquaLink\\frmadmireporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|solutionrelative:frmadmireporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|C:\\Users\\Javi\\AquaLink\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|solutionrelative:conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|C:\\Users\\Javi\\AquaLink\\encuestas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|solutionrelative:encuestas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|C:\\Users\\Javi\\AquaLink\\reportecontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|solutionrelative:reportecontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|C:\\Users\\Javi\\AquaLink\\mdinicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|solutionrelative:mdinicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|C:\\Users\\Javi\\AquaLink\\mdinicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -43,12 +35,32 @@
       "RelativeMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|solutionrelative:mdireportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|C:\\Users\\Javi\\AquaLink\\frmagregarreporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|solutionrelative:frmagregarreporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|C:\\Users\\Javi\\AquaLink\\mdiprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|solutionrelative:mdiprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|C:\\Users\\Javi\\AquaLink\\administracion_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|solutionrelative:administracion_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|C:\\Users\\Javi\\AquaLink\\clsregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|solutionrelative:clsregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|C:\\Users\\Javi\\AquaLink\\frmadmireporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|solutionrelative:frmadmireporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|C:\\Users\\Javi\\AquaLink\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|solutionrelative:conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|C:\\Users\\Javi\\AquaLink\\reportecontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|solutionrelative:reportecontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|C:\\Users\\Javi\\AquaLink\\frmagregarreporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|solutionrelative:frmagregarreporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|C:\\Users\\Javi\\AquaLink\\mdiPrincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -69,14 +81,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|C:\\Users\\Javi\\AquaLink\\frmterminados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|solutionrelative:frmterminados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|C:\\Users\\Javi\\AquaLink\\mdiprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|solutionrelative:mdiprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|C:\\Users\\Javi\\AquaLink\\administracion_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|solutionrelative:administracion_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|C:\\Users\\Javi\\AquaLink\\frmgraficas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -107,10 +111,6 @@
       "RelativeMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|solutionrelative:formconsultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|C:\\Users\\Javi\\AquaLink\\mdinicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|solutionrelative:mdinicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|C:\\Users\\Javi\\AquaLink\\seleccionencuesta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0D60C142-27CB-404B-B77E-ACF67E469276}|ProyectoAquaLink.csproj|solutionrelative:seleccionencuesta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -133,11 +133,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 8,
               "Title": "mdiPrincipal.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Javi\\AquaLink\\mdiPrincipal.cs",
               "RelativeDocumentMoniker": "mdiPrincipal.cs",
@@ -145,11 +145,12 @@
               "RelativeToolTip": "mdiPrincipal.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-16T18:35:43.324Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "MDInicio.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Javi\\AquaLink\\MDInicio.cs",
               "RelativeDocumentMoniker": "MDInicio.cs",
@@ -157,11 +158,12 @@
               "RelativeToolTip": "MDInicio.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-20T19:14:40.082Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "mdiReportes.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Javi\\AquaLink\\mdiReportes.cs",
               "RelativeDocumentMoniker": "mdiReportes.cs",
@@ -169,11 +171,12 @@
               "RelativeToolTip": "mdiReportes.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-22T04:56:39.093Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "frmAgregarReporte.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Javi\\AquaLink\\frmAgregarReporte.cs",
               "RelativeDocumentMoniker": "frmAgregarReporte.cs",
@@ -185,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "frmEstatus.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Javi\\AquaLink\\frmEstatus.cs",
               "RelativeDocumentMoniker": "frmEstatus.cs",
@@ -197,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "frmTerminados.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Javi\\AquaLink\\frmTerminados.cs",
               "RelativeDocumentMoniker": "frmTerminados.cs",
@@ -209,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "frmGraficas.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Javi\\AquaLink\\frmGraficas.cs",
               "RelativeDocumentMoniker": "frmGraficas.cs",
@@ -221,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 0,
               "Title": "Administracion_Usuario.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Javi\\AquaLink\\Administracion_Usuario.cs",
               "RelativeDocumentMoniker": "Administracion_Usuario.cs",
@@ -229,11 +232,12 @@
               "RelativeToolTip": "Administracion_Usuario.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-16T04:01:28.463Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Encuestas.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Javi\\AquaLink\\Encuestas.cs",
               "RelativeDocumentMoniker": "Encuestas.cs",
@@ -241,11 +245,12 @@
               "RelativeToolTip": "Encuestas.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-13T15:07:31.703Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "FormConsultas.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Javi\\AquaLink\\FormConsultas.cs",
               "RelativeDocumentMoniker": "FormConsultas.cs",
@@ -257,7 +262,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "frmAdmiReporte.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Javi\\AquaLink\\frmAdmiReporte.cs",
               "RelativeDocumentMoniker": "frmAdmiReporte.cs",
@@ -269,13 +274,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Registro_Controlador.cs",
               "DocumentMoniker": "C:\\Users\\Javi\\AquaLink\\Registro_Controlador.cs",
               "RelativeDocumentMoniker": "Registro_Controlador.cs",
               "ToolTip": "C:\\Users\\Javi\\AquaLink\\Registro_Controlador.cs",
               "RelativeToolTip": "Registro_Controlador.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAwwHsAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowHsAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-18T16:58:43.652Z",
               "EditorCaption": ""
@@ -283,19 +288,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Registro.cs",
+              "Title": "Registro.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Javi\\AquaLink\\Registro.cs",
               "RelativeDocumentMoniker": "Registro.cs",
-              "ToolTip": "C:\\Users\\Javi\\AquaLink\\Registro.cs",
-              "RelativeToolTip": "Registro.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowDgAAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Javi\\AquaLink\\Registro.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Registro.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T03:59:59.966Z",
+              "WhenOpened": "2025-08-14T16:58:45.446Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Administracion_Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Javi\\AquaLink\\Administracion_Usuario.cs",
+              "RelativeDocumentMoniker": "Administracion_Usuario.cs",
+              "ToolTip": "C:\\Users\\Javi\\AquaLink\\Administracion_Usuario.cs",
+              "RelativeToolTip": "Administracion_Usuario.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAWwDMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T04:09:19.389Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "frmAdmiReporte.cs",
               "DocumentMoniker": "C:\\Users\\Javi\\AquaLink\\frmAdmiReporte.cs",
               "RelativeDocumentMoniker": "frmAdmiReporte.cs",
@@ -308,18 +325,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Registro.cs [Dise\u00F1o]",
+              "Title": "Registro.cs",
               "DocumentMoniker": "C:\\Users\\Javi\\AquaLink\\Registro.cs",
               "RelativeDocumentMoniker": "Registro.cs",
-              "ToolTip": "C:\\Users\\Javi\\AquaLink\\Registro.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Registro.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Javi\\AquaLink\\Registro.cs",
+              "RelativeToolTip": "Registro.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAWwDwAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T16:58:45.446Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-08-19T03:59:59.966Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "CLSRegistro.cs",
               "DocumentMoniker": "C:\\Users\\Javi\\AquaLink\\CLSRegistro.cs",
               "RelativeDocumentMoniker": "CLSRegistro.cs",
@@ -327,12 +345,11 @@
               "RelativeToolTip": "CLSRegistro.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T16:54:52.768Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T16:54:52.768Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "Conexion.cs",
               "DocumentMoniker": "C:\\Users\\Javi\\AquaLink\\Conexion.cs",
               "RelativeDocumentMoniker": "Conexion.cs",
@@ -344,7 +361,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "ReporteControlador.cs",
               "DocumentMoniker": "C:\\Users\\Javi\\AquaLink\\ReporteControlador.cs",
               "RelativeDocumentMoniker": "ReporteControlador.cs",
@@ -356,7 +373,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "Reporte.cs",
               "DocumentMoniker": "C:\\Users\\Javi\\AquaLink\\Reporte.cs",
               "RelativeDocumentMoniker": "Reporte.cs",
@@ -368,19 +385,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Administracion_Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\Javi\\AquaLink\\Administracion_Usuario.cs",
-              "RelativeDocumentMoniker": "Administracion_Usuario.cs",
-              "ToolTip": "C:\\Users\\Javi\\AquaLink\\Administracion_Usuario.cs",
-              "RelativeToolTip": "Administracion_Usuario.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwEIAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T04:09:19.389Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "mdiPrincipal.cs",
               "DocumentMoniker": "C:\\Users\\Javi\\AquaLink\\mdiPrincipal.cs",
               "RelativeDocumentMoniker": "mdiPrincipal.cs",
@@ -388,23 +393,25 @@
               "RelativeToolTip": "mdiPrincipal.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAhwCIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T12:09:56.884Z"
+              "WhenOpened": "2025-07-17T12:09:56.884Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 5,
               "Title": "MDInicio.cs",
               "DocumentMoniker": "C:\\Users\\Javi\\AquaLink\\MDInicio.cs",
               "RelativeDocumentMoniker": "MDInicio.cs",
               "ToolTip": "C:\\Users\\Javi\\AquaLink\\MDInicio.cs",
               "RelativeToolTip": "MDInicio.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAgwHAAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAArwBoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T19:59:34.634Z"
+              "WhenOpened": "2025-07-20T19:59:34.634Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Encuestas.cs",
               "DocumentMoniker": "C:\\Users\\Javi\\AquaLink\\Encuestas.cs",
               "RelativeDocumentMoniker": "Encuestas.cs",
@@ -412,7 +419,8 @@
               "RelativeToolTip": "Encuestas.cs",
               "ViewState": "AgIAAE8AAAAAAAAAAAAowFIAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T15:15:47.806Z"
+              "WhenOpened": "2025-08-13T15:15:47.806Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -438,7 +446,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "frmEstatus.cs",
               "DocumentMoniker": "C:\\Users\\Javi\\AquaLink\\frmEstatus.cs",
               "RelativeDocumentMoniker": "frmEstatus.cs",
@@ -462,7 +470,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "mdiReportes.cs",
               "DocumentMoniker": "C:\\Users\\Javi\\AquaLink\\mdiReportes.cs",
               "RelativeDocumentMoniker": "mdiReportes.cs",
@@ -470,11 +478,12 @@
               "RelativeToolTip": "mdiReportes.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAApwEYAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T19:29:34.339Z"
+              "WhenOpened": "2025-08-04T19:29:34.339Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "frmAgregarReporte.cs",
               "DocumentMoniker": "C:\\Users\\Javi\\AquaLink\\frmAgregarReporte.cs",
               "RelativeDocumentMoniker": "frmAgregarReporte.cs",
@@ -486,7 +495,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "FormConsultas.cs",
               "DocumentMoniker": "C:\\Users\\Javi\\AquaLink\\FormConsultas.cs",
               "RelativeDocumentMoniker": "FormConsultas.cs",

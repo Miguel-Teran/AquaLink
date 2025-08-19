@@ -12,6 +12,7 @@ namespace ProyectoAquaLink
 {
     public partial class Administracion_Usuario : Form
     {
+
         public Administracion_Usuario()
         {
             InitializeComponent();
@@ -65,6 +66,47 @@ namespace ProyectoAquaLink
             MDInicio principal = new MDInicio();
             principal.Show();
             this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            try
+            {
+               
+                if (string.IsNullOrWhiteSpace(UsuarioRB.Text))
+                {
+                    MessageBox.Show("Por favor, ingresa el ID del usuario a eliminar.");
+                    return;
+                }
+
+             
+                int idUsuario = Convert.ToInt32(UsuarioRB.Text.Trim());
+
+               
+                Registro_Controlador controlador = new Registro_Controlador();
+
+                
+                bool eliminado = controlador.EliminarRegistro(idUsuario);
+
+           
+                if (eliminado)
+                {
+                    MessageBox.Show("Usuario eliminado correctamente.");
+                    UsuarioRB.Clear();
+                }
+                else
+                {
+                    MessageBox.Show("No se pudo eliminar el usuario. Verifica que el ID exista.");
+                }
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show("El ID de usuario debe ser un número válido.");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Ocurrió un error al eliminar: " + ex.Message);
+            }
         }
     }
 }
