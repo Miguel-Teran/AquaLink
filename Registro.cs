@@ -20,6 +20,19 @@ namespace ProyectoAquaLink
 
         private void button1_Click(object sender, EventArgs e)
         {
+
+            if (EmailR.Text.Trim() == "")
+            {
+                MessageBox.Show("Favor de ingresar su Email");
+                EmailR.Focus();
+                return;
+            }
+            if (ContraseñaR.Text.Trim() == "")
+            {
+                MessageBox.Show("Favor de ingresar una contraseña");
+                ContraseñaR.Focus();
+                return;
+            }
             try
             {
                 
@@ -27,7 +40,7 @@ namespace ProyectoAquaLink
                 string email = EmailR.Text.Trim();
 
                 
-                CLSRegistro reg = new CLSRegistro(contraseña, email);
+                CLSRegistro reg = new CLSRegistro(email, contraseña);
 
 
                
@@ -43,7 +56,13 @@ namespace ProyectoAquaLink
             {
                 MessageBox.Show("Ocurrió un error: " + ex.Message);
             }
-
+            limpiar();
+        }
+        void limpiar()
+        {
+            EmailR.Enabled = true;
+            EmailR.Text = "";
+            ContraseñaR.Text = "";
         }
 
         private void Registro_FormClosed(object sender, FormClosedEventArgs e)
