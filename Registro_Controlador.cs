@@ -14,104 +14,116 @@ namespace ProyectoAquaLink
     {
         public Registro_Controlador()
         {
-
         }
+
+       
         public bool AgregarRegistro(CLSRegistro registro)
         {
             try
             {
-                SqlConnection conn = new SqlConnection(Conexion.strConexion);
-                if (conn.State == 0)
-                    conn.Open();
-                SqlCommand cmd = new SqlCommand("Agregar_Registro", conn);
-                cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@UsuarioID", registro.UsuarioID);
-                cmd.Parameters.AddWithValue("@Contraseña", registro.Contraseña);
-                cmd.Parameters.AddWithValue("@Email", registro.Email);
+                using (SqlConnection conn = new SqlConnection(Conexion.strConexion))
+                {
+                    using (SqlCommand cmd = new SqlCommand("Agregar_Registro", conn))
+                    {
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.Parameters.AddWithValue("@Contraseña", registro.Contraseña);
+                        cmd.Parameters.AddWithValue("@Email", registro.Email);
 
-                cmd.ExecuteNonQuery();
-                return true;
+                        conn.Open();
+                        int filas = cmd.ExecuteNonQuery();
+                        return filas > 0;
+                    }
+                }
             }
-            catch
+            catch (Exception ex)
             {
+                MessageBox.Show("Error al guardar: " + ex.Message);
                 return false;
             }
         }
+
+       
         public bool ActualizarRegistro(CLSRegistro registro)
         {
             try
             {
-                SqlConnection conn = new SqlConnection(Conexion.strConexion);
-                if (conn.State == 0)
-                    conn.Open();
-                SqlCommand cmd = new SqlCommand("Actualizar_Registro", conn);
-                cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@UsuarioID", registro.UsuarioID);
-                cmd.Parameters.AddWithValue("@Contraseña", registro.Contraseña);
-                cmd.Parameters.AddWithValue("@Email", registro.Email);
+                using (SqlConnection conn = new SqlConnection(Conexion.strConexion))
+                {
+                    using (SqlCommand cmd = new SqlCommand("Actualizar_Registro", conn))
+                    {
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.Parameters.AddWithValue("@UsuarioID", registro.UsuarioID);
+                        cmd.Parameters.AddWithValue("@Contraseña", registro.Contraseña);
+                        cmd.Parameters.AddWithValue("@Email", registro.Email);
 
-                cmd.ExecuteNonQuery();
-                return true;
+                        conn.Open();
+                        int filas = cmd.ExecuteNonQuery();
+                        return filas > 0;
+                    }
+                }
             }
-            catch
+            catch (Exception ex)
             {
+                MessageBox.Show("Error al actualizar: " + ex.Message);
                 return false;
             }
         }
-        public CLSRegistro ObtenerRegistro(int id)
+
+      public CLSRegistro ObtenerRegistro(int id)
         {
             CLSRegistro reg = null;
             try
             {
-                SqlConnection conn= new SqlConnection(Conexion.strConexion);
-                SqlDataAdapter adaptador = new SqlDataAdapter();
-                DataTable datos = new DataTable();
-                if (conn.State == 0)
-                    conn.Open();
-                SqlCommand cmd = new SqlCommand("Agregar_Registro", conn);
-                cmd.CommandType= CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@UsuarioID", id);
-                adaptador.SelectCommand = cmd;
-                adaptador.Fill(datos);
-                if(datos.Rows.Count > 0)
+                using (SqlConnection conn = new SqlConnection(Conexion.strConexion))
                 {
-                    reg = new CLSRegistro
+                    string query = "SELECT UsuarioID, Contraseña, Email FROM Registro WHERE UsuarioID = @UsuarioID";
+
+                    using (SqlCommand cmd = new SqlCommand(query, conn))
                     {
-                        UsuarioID = Convert.ToInt32(datos.Rows[0].ItemArray[0]),
-                        Contraseña = datos.Rows[0].ItemArray[1].ToString(),
-                        Email = datos.Rows[0].ItemArray[2].ToString(),
-                    };
+                        cmd.Parameters.AddWithValue("@UsuarioID", id);
+                        conn.Open();
+
+                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        {
+                            if (reader.Read())
+                            {
+                                reg = new CLSRegistro(reader["Contraseña"].ToString(),
+                                                      reader["Email"].ToString());
+                                reg.UsuarioID = Convert.ToInt32(reader["UsuarioID"]);
+                            }
+                        }
+                    }
                 }
-                return reg;
             }
-            catch
+            catch (Exception ex)
             {
-                return reg;
+                MessageBox.Show("Error al obtener registro: " + ex.Message);
             }
+            return reg;
         }
 
         public bool EliminarRegistro(int id)
         {
-
             try
             {
-                SqlConnection conn = new SqlConnection(Conexion.strConexion);
-                if (conn.State == 0)
-                    conn.Open();
-                SqlCommand cmd = new SqlCommand("Borrar_Registro", conn);
-                cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@UsuarioID", id);
-               
+                using (SqlConnection conn = new SqlConnection(Conexion.strConexion))
+                {
+                    using (SqlCommand cmd = new SqlCommand("Borrar_Registro", conn))
+                    {
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.Parameters.AddWithValue("@UsuarioID", id);
 
-                cmd.ExecuteNonQuery();
-                return true;
+                        conn.Open();
+                        int filas = cmd.ExecuteNonQuery();
+                        return filas > 0;
+                    }
+                }
             }
-            catch
+            catch (Exception ex)
             {
+                MessageBox.Show("Error al eliminar: " + ex.Message);
                 return false;
             }
-
-
         }
     }
 }

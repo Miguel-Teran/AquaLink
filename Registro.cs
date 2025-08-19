@@ -12,6 +12,7 @@ namespace ProyectoAquaLink
 {
     public partial class Registro : Form
     {
+        Registro_Controlador controlador = new Registro_Controlador();
         public Registro()
         {
             InitializeComponent();
@@ -19,13 +20,30 @@ namespace ProyectoAquaLink
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int idusuario;
-            string email, contraseña;
+            try
+            {
+                
+                string contraseña = ContraseñaR.Text.Trim();
+                string email = EmailR.Text.Trim();
 
-            idusuario = Convert.ToInt32(UsuarioR.Text.Trim());
-            email = EmailR.Text.Trim();
-            contraseña = EmailR.Text.Trim();
-            CLSRegistro reg = new CLSRegistro(idusuario, email, contraseña);
+                
+                CLSRegistro reg = new CLSRegistro(contraseña, email);
+
+
+               
+                bool guardo = controlador.AgregarRegistro(reg);
+
+               
+                if (guardo)
+                    MessageBox.Show("Registro guardado correctamente");
+                else
+                    MessageBox.Show("No se pudo guardar el registro");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Ocurrió un error: " + ex.Message);
+            }
+
         }
 
         private void Registro_FormClosed(object sender, FormClosedEventArgs e)
