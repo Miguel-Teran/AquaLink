@@ -37,6 +37,7 @@
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.tipo = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.EmailR = new System.Windows.Forms.TextBox();
@@ -55,6 +56,9 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.gbTipo = new System.Windows.Forms.GroupBox();
+            this.rbAdmin = new System.Windows.Forms.RadioButton();
+            this.rbUsuario = new System.Windows.Forms.RadioButton();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
@@ -74,6 +78,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.gbTipo.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -189,6 +194,8 @@
             this.panel2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel2.BackColor = System.Drawing.Color.Cyan;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel2.Controls.Add(this.gbTipo);
+            this.panel2.Controls.Add(this.tipo);
             this.panel2.Controls.Add(this.button1);
             this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.EmailR);
@@ -203,11 +210,22 @@
             this.panel2.Size = new System.Drawing.Size(363, 323);
             this.panel2.TabIndex = 26;
             // 
+            // tipo
+            // 
+            this.tipo.AutoSize = true;
+            this.tipo.BackColor = System.Drawing.Color.White;
+            this.tipo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tipo.ForeColor = System.Drawing.Color.DarkBlue;
+            this.tipo.Location = new System.Drawing.Point(127, 51);
+            this.tipo.Name = "tipo";
+            this.tipo.Size = new System.Drawing.Size(0, 17);
+            this.tipo.TabIndex = 29;
+            // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.White;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(100, 235);
+            this.button1.Location = new System.Drawing.Point(101, 269);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(144, 28);
@@ -230,7 +248,7 @@
             // 
             // EmailR
             // 
-            this.EmailR.Location = new System.Drawing.Point(85, 108);
+            this.EmailR.Location = new System.Drawing.Point(87, 159);
             this.EmailR.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.EmailR.Name = "EmailR";
             this.EmailR.Size = new System.Drawing.Size(164, 23);
@@ -242,7 +260,7 @@
             this.label4.BackColor = System.Drawing.Color.White;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.DarkBlue;
-            this.label4.Location = new System.Drawing.Point(137, 77);
+            this.label4.Location = new System.Drawing.Point(148, 123);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(46, 17);
             this.label4.TabIndex = 24;
@@ -250,7 +268,7 @@
             // 
             // ContraseñaR
             // 
-            this.ContraseñaR.Location = new System.Drawing.Point(85, 173);
+            this.ContraseñaR.Location = new System.Drawing.Point(87, 227);
             this.ContraseñaR.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ContraseñaR.Name = "ContraseñaR";
             this.ContraseñaR.PasswordChar = '*';
@@ -263,7 +281,7 @@
             this.label2.BackColor = System.Drawing.Color.White;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.DarkBlue;
-            this.label2.Location = new System.Drawing.Point(120, 142);
+            this.label2.Location = new System.Drawing.Point(127, 198);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(85, 17);
             this.label2.TabIndex = 19;
@@ -401,6 +419,41 @@
             this.pictureBox2.TabIndex = 27;
             this.pictureBox2.TabStop = false;
             // 
+            // gbTipo
+            // 
+            this.gbTipo.BackColor = System.Drawing.Color.White;
+            this.gbTipo.Controls.Add(this.rbUsuario);
+            this.gbTipo.Controls.Add(this.rbAdmin);
+            this.gbTipo.ForeColor = System.Drawing.Color.DarkBlue;
+            this.gbTipo.Location = new System.Drawing.Point(42, 37);
+            this.gbTipo.Name = "gbTipo";
+            this.gbTipo.Size = new System.Drawing.Size(286, 69);
+            this.gbTipo.TabIndex = 32;
+            this.gbTipo.TabStop = false;
+            this.gbTipo.Text = "tipo de cuenta";
+            // 
+            // rbAdmin
+            // 
+            this.rbAdmin.AutoSize = true;
+            this.rbAdmin.Location = new System.Drawing.Point(14, 23);
+            this.rbAdmin.Name = "rbAdmin";
+            this.rbAdmin.Size = new System.Drawing.Size(129, 21);
+            this.rbAdmin.TabIndex = 0;
+            this.rbAdmin.TabStop = true;
+            this.rbAdmin.Text = "Administrador";
+            this.rbAdmin.UseVisualStyleBackColor = true;
+            // 
+            // rbUsuario
+            // 
+            this.rbUsuario.AutoSize = true;
+            this.rbUsuario.Location = new System.Drawing.Point(151, 23);
+            this.rbUsuario.Name = "rbUsuario";
+            this.rbUsuario.Size = new System.Drawing.Size(85, 21);
+            this.rbUsuario.TabIndex = 1;
+            this.rbUsuario.TabStop = true;
+            this.rbUsuario.Text = "Usuario";
+            this.rbUsuario.UseVisualStyleBackColor = true;
+            // 
             // Registro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -433,6 +486,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.gbTipo.ResumeLayout(false);
+            this.gbTipo.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -466,5 +521,9 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label tipo;
+        private System.Windows.Forms.GroupBox gbTipo;
+        private System.Windows.Forms.RadioButton rbUsuario;
+        private System.Windows.Forms.RadioButton rbAdmin;
     }
 }

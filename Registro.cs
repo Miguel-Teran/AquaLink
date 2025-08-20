@@ -20,7 +20,12 @@ namespace ProyectoAquaLink
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            if (rbAdmin.Checked == false && rbUsuario.Checked == false)
+            {
+                MessageBox.Show("Selecciones un tipo de cueta");
+                gbTipo.Focus();
+                return;
+            }
             if (EmailR.Text.Trim() == "")
             {
                 MessageBox.Show("Favor de ingresar su Email");
@@ -35,22 +40,25 @@ namespace ProyectoAquaLink
             }
             try
             {
-                
-                string contraseña = ContraseñaR.Text.Trim();
-                string email = EmailR.Text.Trim();
+                if (rbUsuario.Checked == true)
+                {
 
-                
-                CLSRegistro reg = new CLSRegistro(email, contraseña);
+                    string contraseña = ContraseñaR.Text.Trim();
+                    string email = EmailR.Text.Trim();
 
 
-               
-                bool guardo = controlador.AgregarRegistro(reg);
+                    CLSRegistro reg = new CLSRegistro(email, contraseña);
 
-               
-                if (guardo)
-                    MessageBox.Show("Registro guardado correctamente");
-                else
-                    MessageBox.Show("No se pudo guardar el registro");
+
+
+                    bool guardo = controlador.AgregarRegistro(reg);
+
+
+                    if (guardo)
+                        MessageBox.Show("Registro guardado correctamente");
+                    else
+                        MessageBox.Show("No se pudo guardar el registro");
+                }
             }
             catch (Exception ex)
             {
