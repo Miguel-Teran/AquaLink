@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static ProyectoAquaLink.Encuesta;
 
 namespace ProyectoAquaLink
 {
@@ -27,20 +28,67 @@ namespace ProyectoAquaLink
 
         private void btnEnviar_Click(object sender, EventArgs e)
         {
-            string respuesta1 = txtPregunta1.Text;
-            string respuesta2 = txtPregunta2.Text;
-            string respuesta3 = txtPregunta3.Text;
-            string respuesta4 = txtPregunta4.Text;
-            string respuesta5 = txtPregunta5.Text;
+            try
+            {
 
-            MessageBox.Show("Gracias por responder la encuesta", "Aqualink");
+                string respuesta1 = txtRes1.Text;
+                string respuesta2 = txtRes2.Text;
+                string respuesta3 = txtRes3.Text;
+                string respuesta4 = txtRes4.Text;
+                string respuesta5 = txtRes5.Text;
 
-            DatosEncuesta.respuestas.Clear();
-            DatosEncuesta.respuestas.Add(txtPregunta1.Text);
-            DatosEncuesta.respuestas.Add(txtPregunta2.Text);
-            DatosEncuesta.respuestas.Add(txtPregunta3.Text);
-            DatosEncuesta.respuestas.Add(txtPregunta4.Text);
-            DatosEncuesta.respuestas.Add(txtPregunta5.Text);
+
+                string[] preguntas = new string[]
+                {
+                    "¿Tiene buena presión de agua?",
+                    "¿Cuentas con cisterna?",
+                    "¿Sueles tener problemas con el agua recientemente?",
+                    "¿En que actividades usa el agua?",
+                    "¿Cuantas horas suele usar el agua?"
+                };
+
+
+                string[] respuestas = new string[]
+                {
+                    respuesta1,
+                    respuesta2,
+                    respuesta3,
+                    respuesta4,
+                    respuesta5
+                };
+
+
+                EncuestaController controlador = new EncuestaController();
+
+
+                for (int i = 0; i < respuestas.Length; i++)
+                {
+
+                    ModeloEncuesta nuevaEncuesta = new ModeloEncuesta
+                    {
+                        EncuestaNombre = "Encuesta de Agua",
+                        Pregunta = preguntas[i],
+                        Respuesta = respuestas[i],
+                        Fecha = DateTime.Now
+                    };
+
+
+                    controlador.InsertarEncuesta(nuevaEncuesta);
+                }
+
+                MessageBox.Show("¡La encuesta ha sido guardada exitosamente!", "Aqualink");
+
+
+                txtRes1.Text = "";
+                txtRes2.Text = "";
+                txtRes3.Text = "";
+                txtRes4.Text = "";
+                txtRes5.Text = "";
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Ocurrió un error al guardar la encuesta: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -81,6 +129,22 @@ namespace ProyectoAquaLink
             FormConsultas formConsulta = new FormConsultas();
             formConsulta.Show();
             this.Hide();
+        }
+
+        private void Encuestas_Load(object sender, EventArgs e)
+        {
+            txtPregunta1.Text = "¿Tiene buena presión de agua?";
+            txtPregunta2.Text = "¿Cuentas con cisterna?";
+            txtPregunta3.Text = "¿Sueles tener problemas con el agua recientemente?";
+            txtPregunta4.Text = "¿En que actividades usa el agua?";
+            txtPregunta5.Text = "¿Cuantas horas suele usar el agua?";
+
+
+            txtPregunta1.ReadOnly = true;
+            txtPregunta2.ReadOnly = true;
+            txtPregunta3.ReadOnly = true;
+            txtPregunta4.ReadOnly = true;
+            txtPregunta5.ReadOnly = true;
         }
     }
 }

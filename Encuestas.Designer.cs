@@ -56,17 +56,8 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.btnEnviar = new System.Windows.Forms.Button();
-            this.txtPregunta5 = new System.Windows.Forms.TextBox();
-            this.txtPregunta4 = new System.Windows.Forms.TextBox();
-            this.txtPregunta3 = new System.Windows.Forms.TextBox();
-            this.txtPregunta2 = new System.Windows.Forms.TextBox();
-            this.txtPregunta1 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.btnConsultarEncuesta = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -75,7 +66,16 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnReporte = new System.Windows.Forms.Button();
             this.btnConsumo = new System.Windows.Forms.Button();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.txtPregunta3 = new System.Windows.Forms.TextBox();
+            this.txtPregunta4 = new System.Windows.Forms.TextBox();
+            this.txtPregunta5 = new System.Windows.Forms.TextBox();
+            this.txtPregunta2 = new System.Windows.Forms.TextBox();
+            this.txtPregunta1 = new System.Windows.Forms.TextBox();
+            this.txtRes5 = new System.Windows.Forms.TextBox();
+            this.txtRes4 = new System.Windows.Forms.TextBox();
+            this.txtRes3 = new System.Windows.Forms.TextBox();
+            this.txtRes2 = new System.Windows.Forms.TextBox();
+            this.txtRes1 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
@@ -101,11 +101,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.PanelSuperior.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -168,7 +168,7 @@
             this.pictureBox12.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Borbuja;
             this.pictureBox12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox12.Location = new System.Drawing.Point(1395, 620);
-            this.pictureBox12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox12.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(47, 39);
             this.pictureBox12.TabIndex = 107;
@@ -180,7 +180,7 @@
             this.pictureBox11.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Borbuja;
             this.pictureBox11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox11.Location = new System.Drawing.Point(1555, 754);
-            this.pictureBox11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox11.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(47, 39);
             this.pictureBox11.TabIndex = 106;
@@ -192,7 +192,7 @@
             this.pictureBox7.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Borbuja;
             this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox7.Location = new System.Drawing.Point(1632, 663);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(47, 39);
             this.pictureBox7.TabIndex = 105;
@@ -204,7 +204,7 @@
             this.pictureBox18.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Borbuja;
             this.pictureBox18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox18.Location = new System.Drawing.Point(1611, 513);
-            this.pictureBox18.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox18.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox18.Name = "pictureBox18";
             this.pictureBox18.Size = new System.Drawing.Size(47, 39);
             this.pictureBox18.TabIndex = 104;
@@ -216,7 +216,7 @@
             this.pictureBox15.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Borbuja;
             this.pictureBox15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox15.Location = new System.Drawing.Point(1611, 710);
-            this.pictureBox15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox15.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox15.Name = "pictureBox15";
             this.pictureBox15.Size = new System.Drawing.Size(99, 84);
             this.pictureBox15.TabIndex = 103;
@@ -228,7 +228,7 @@
             this.pictureBox10.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Borbuja;
             this.pictureBox10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox10.Location = new System.Drawing.Point(1413, 487);
-            this.pictureBox10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox10.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(47, 39);
             this.pictureBox10.TabIndex = 102;
@@ -240,7 +240,7 @@
             this.pictureBox9.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Borbuja;
             this.pictureBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox9.Location = new System.Drawing.Point(1543, 425);
-            this.pictureBox9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox9.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(47, 39);
             this.pictureBox9.TabIndex = 101;
@@ -252,7 +252,7 @@
             this.pictureBox6.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Borbuja;
             this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox6.Location = new System.Drawing.Point(1436, 391);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(99, 84);
             this.pictureBox6.TabIndex = 100;
@@ -264,7 +264,7 @@
             this.pictureBox5.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Borbuja;
             this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox5.Location = new System.Drawing.Point(1491, 542);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(99, 84);
             this.pictureBox5.TabIndex = 99;
@@ -276,7 +276,7 @@
             this.pictureBox23.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Borbuja;
             this.pictureBox23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox23.Location = new System.Drawing.Point(1229, 802);
-            this.pictureBox23.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox23.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox23.Name = "pictureBox23";
             this.pictureBox23.Size = new System.Drawing.Size(47, 39);
             this.pictureBox23.TabIndex = 98;
@@ -288,7 +288,7 @@
             this.pictureBox22.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Borbuja;
             this.pictureBox22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox22.Location = new System.Drawing.Point(960, 784);
-            this.pictureBox22.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox22.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox22.Name = "pictureBox22";
             this.pictureBox22.Size = new System.Drawing.Size(47, 39);
             this.pictureBox22.TabIndex = 97;
@@ -300,7 +300,7 @@
             this.pictureBox13.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Borbuja;
             this.pictureBox13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox13.Location = new System.Drawing.Point(653, 833);
-            this.pictureBox13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox13.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(47, 39);
             this.pictureBox13.TabIndex = 96;
@@ -312,7 +312,7 @@
             this.pictureBox24.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Borbuja;
             this.pictureBox24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox24.Location = new System.Drawing.Point(124, 311);
-            this.pictureBox24.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox24.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox24.Name = "pictureBox24";
             this.pictureBox24.Size = new System.Drawing.Size(27, 28);
             this.pictureBox24.TabIndex = 94;
@@ -324,7 +324,7 @@
             this.pictureBox26.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Borbuja;
             this.pictureBox26.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox26.Location = new System.Drawing.Point(33, 450);
-            this.pictureBox26.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox26.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox26.Name = "pictureBox26";
             this.pictureBox26.Size = new System.Drawing.Size(47, 39);
             this.pictureBox26.TabIndex = 93;
@@ -336,7 +336,7 @@
             this.pictureBox27.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Borbuja;
             this.pictureBox27.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox27.Location = new System.Drawing.Point(160, 450);
-            this.pictureBox27.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox27.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox27.Name = "pictureBox27";
             this.pictureBox27.Size = new System.Drawing.Size(47, 39);
             this.pictureBox27.TabIndex = 92;
@@ -348,7 +348,7 @@
             this.pictureBox25.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Borbuja;
             this.pictureBox25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox25.Location = new System.Drawing.Point(180, 542);
-            this.pictureBox25.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox25.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox25.Name = "pictureBox25";
             this.pictureBox25.Size = new System.Drawing.Size(47, 39);
             this.pictureBox25.TabIndex = 91;
@@ -360,7 +360,7 @@
             this.pictureBox21.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Borbuja;
             this.pictureBox21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox21.Location = new System.Drawing.Point(204, 382);
-            this.pictureBox21.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox21.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox21.Name = "pictureBox21";
             this.pictureBox21.Size = new System.Drawing.Size(47, 39);
             this.pictureBox21.TabIndex = 90;
@@ -372,7 +372,7 @@
             this.pictureBox17.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Borbuja;
             this.pictureBox17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox17.Location = new System.Drawing.Point(-21, 738);
-            this.pictureBox17.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox17.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox17.Name = "pictureBox17";
             this.pictureBox17.Size = new System.Drawing.Size(47, 39);
             this.pictureBox17.TabIndex = 88;
@@ -384,7 +384,7 @@
             this.pictureBox16.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Borbuja;
             this.pictureBox16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox16.Location = new System.Drawing.Point(44, 844);
-            this.pictureBox16.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox16.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox16.Name = "pictureBox16";
             this.pictureBox16.Size = new System.Drawing.Size(47, 39);
             this.pictureBox16.TabIndex = 87;
@@ -396,7 +396,7 @@
             this.pictureBox14.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Borbuja;
             this.pictureBox14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox14.Location = new System.Drawing.Point(33, 665);
-            this.pictureBox14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox14.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(99, 84);
             this.pictureBox14.TabIndex = 86;
@@ -408,7 +408,7 @@
             this.pictureBox8.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Borbuja;
             this.pictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox8.Location = new System.Drawing.Point(204, 679);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(47, 39);
             this.pictureBox8.TabIndex = 85;
@@ -420,7 +420,7 @@
             this.pictureBox4.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Borbuja;
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox4.Location = new System.Drawing.Point(267, 770);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(47, 39);
             this.pictureBox4.TabIndex = 84;
@@ -432,7 +432,7 @@
             this.pictureBox19.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Borbuja;
             this.pictureBox19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox19.Location = new System.Drawing.Point(140, 738);
-            this.pictureBox19.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox19.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox19.Name = "pictureBox19";
             this.pictureBox19.Size = new System.Drawing.Size(99, 84);
             this.pictureBox19.TabIndex = 83;
@@ -451,28 +451,28 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.White;
-            this.panel3.Controls.Add(this.btnEnviar);
-            this.panel3.Controls.Add(this.txtPregunta5);
-            this.panel3.Controls.Add(this.txtPregunta4);
             this.panel3.Controls.Add(this.txtPregunta3);
+            this.panel3.Controls.Add(this.txtPregunta4);
+            this.panel3.Controls.Add(this.txtPregunta5);
             this.panel3.Controls.Add(this.txtPregunta2);
             this.panel3.Controls.Add(this.txtPregunta1);
-            this.panel3.Controls.Add(this.label5);
-            this.panel3.Controls.Add(this.label4);
-            this.panel3.Controls.Add(this.label3);
-            this.panel3.Controls.Add(this.label2);
-            this.panel3.Controls.Add(this.label1);
+            this.panel3.Controls.Add(this.txtRes5);
+            this.panel3.Controls.Add(this.txtRes4);
+            this.panel3.Controls.Add(this.txtRes3);
+            this.panel3.Controls.Add(this.txtRes2);
+            this.panel3.Controls.Add(this.txtRes1);
+            this.panel3.Controls.Add(this.btnEnviar);
             this.panel3.Controls.Add(this.label6);
             this.panel3.Location = new System.Drawing.Point(589, 362);
             this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(763, 398);
+            this.panel3.Size = new System.Drawing.Size(763, 416);
             this.panel3.TabIndex = 31;
             // 
             // btnEnviar
             // 
             this.btnEnviar.BackColor = System.Drawing.Color.PowderBlue;
-            this.btnEnviar.Location = new System.Drawing.Point(572, 309);
+            this.btnEnviar.Location = new System.Drawing.Point(581, 348);
             this.btnEnviar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnEnviar.Name = "btnEnviar";
             this.btnEnviar.Size = new System.Drawing.Size(149, 50);
@@ -480,96 +480,6 @@
             this.btnEnviar.Text = "Enviar Encuesta";
             this.btnEnviar.UseVisualStyleBackColor = false;
             this.btnEnviar.Click += new System.EventHandler(this.btnEnviar_Click);
-            // 
-            // txtPregunta5
-            // 
-            this.txtPregunta5.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.txtPregunta5.Location = new System.Drawing.Point(148, 246);
-            this.txtPregunta5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.txtPregunta5.Name = "txtPregunta5";
-            this.txtPregunta5.Size = new System.Drawing.Size(575, 22);
-            this.txtPregunta5.TabIndex = 10;
-            // 
-            // txtPregunta4
-            // 
-            this.txtPregunta4.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.txtPregunta4.Location = new System.Drawing.Point(148, 199);
-            this.txtPregunta4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.txtPregunta4.Name = "txtPregunta4";
-            this.txtPregunta4.Size = new System.Drawing.Size(575, 22);
-            this.txtPregunta4.TabIndex = 9;
-            // 
-            // txtPregunta3
-            // 
-            this.txtPregunta3.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.txtPregunta3.Location = new System.Drawing.Point(148, 153);
-            this.txtPregunta3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.txtPregunta3.Name = "txtPregunta3";
-            this.txtPregunta3.Size = new System.Drawing.Size(575, 22);
-            this.txtPregunta3.TabIndex = 8;
-            // 
-            // txtPregunta2
-            // 
-            this.txtPregunta2.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.txtPregunta2.Location = new System.Drawing.Point(148, 105);
-            this.txtPregunta2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.txtPregunta2.Name = "txtPregunta2";
-            this.txtPregunta2.Size = new System.Drawing.Size(575, 22);
-            this.txtPregunta2.TabIndex = 7;
-            // 
-            // txtPregunta1
-            // 
-            this.txtPregunta1.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.txtPregunta1.Location = new System.Drawing.Point(148, 66);
-            this.txtPregunta1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.txtPregunta1.Name = "txtPregunta1";
-            this.txtPregunta1.Size = new System.Drawing.Size(575, 22);
-            this.txtPregunta1.TabIndex = 6;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(27, 254);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(68, 16);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "Pregunta5";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(27, 207);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(68, 16);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "Pregunta4";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(27, 159);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(68, 16);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Pregunta3";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(27, 112);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(68, 16);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Pregunta2";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(27, 73);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(68, 16);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Pregunta1";
             // 
             // label6
             // 
@@ -579,6 +489,18 @@
             this.label6.Size = new System.Drawing.Size(63, 16);
             this.label6.TabIndex = 0;
             this.label6.Text = "Encuesta";
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Marco_superior1;
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pictureBox3.Location = new System.Drawing.Point(0, 80);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(1935, 284);
+            this.pictureBox3.TabIndex = 29;
+            this.pictureBox3.TabStop = false;
             // 
             // btnConsultarEncuesta
             // 
@@ -668,17 +590,85 @@
             this.btnConsumo.UseVisualStyleBackColor = true;
             this.btnConsumo.Click += new System.EventHandler(this.btnConsumo_Click);
             // 
-            // pictureBox3
+            // txtPregunta3
             // 
-            this.pictureBox3.BackgroundImage = global::ProyectoAquaLink.Properties.Resources.Marco_superior1;
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox3.Location = new System.Drawing.Point(0, 80);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(1935, 284);
-            this.pictureBox3.TabIndex = 29;
-            this.pictureBox3.TabStop = false;
+            this.txtPregunta3.Location = new System.Drawing.Point(94, 177);
+            this.txtPregunta3.Name = "txtPregunta3";
+            this.txtPregunta3.Size = new System.Drawing.Size(575, 22);
+            this.txtPregunta3.TabIndex = 26;
+            // 
+            // txtPregunta4
+            // 
+            this.txtPregunta4.Location = new System.Drawing.Point(94, 227);
+            this.txtPregunta4.Name = "txtPregunta4";
+            this.txtPregunta4.Size = new System.Drawing.Size(575, 22);
+            this.txtPregunta4.TabIndex = 25;
+            // 
+            // txtPregunta5
+            // 
+            this.txtPregunta5.Location = new System.Drawing.Point(94, 280);
+            this.txtPregunta5.Name = "txtPregunta5";
+            this.txtPregunta5.Size = new System.Drawing.Size(575, 22);
+            this.txtPregunta5.TabIndex = 24;
+            // 
+            // txtPregunta2
+            // 
+            this.txtPregunta2.Location = new System.Drawing.Point(94, 123);
+            this.txtPregunta2.Name = "txtPregunta2";
+            this.txtPregunta2.Size = new System.Drawing.Size(575, 22);
+            this.txtPregunta2.TabIndex = 23;
+            // 
+            // txtPregunta1
+            // 
+            this.txtPregunta1.Location = new System.Drawing.Point(94, 69);
+            this.txtPregunta1.Name = "txtPregunta1";
+            this.txtPregunta1.Size = new System.Drawing.Size(575, 22);
+            this.txtPregunta1.TabIndex = 22;
+            // 
+            // txtRes5
+            // 
+            this.txtRes5.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.txtRes5.Location = new System.Drawing.Point(94, 307);
+            this.txtRes5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtRes5.Name = "txtRes5";
+            this.txtRes5.Size = new System.Drawing.Size(575, 22);
+            this.txtRes5.TabIndex = 21;
+            // 
+            // txtRes4
+            // 
+            this.txtRes4.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.txtRes4.Location = new System.Drawing.Point(94, 251);
+            this.txtRes4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtRes4.Name = "txtRes4";
+            this.txtRes4.Size = new System.Drawing.Size(575, 22);
+            this.txtRes4.TabIndex = 20;
+            // 
+            // txtRes3
+            // 
+            this.txtRes3.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.txtRes3.Location = new System.Drawing.Point(94, 200);
+            this.txtRes3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtRes3.Name = "txtRes3";
+            this.txtRes3.Size = new System.Drawing.Size(575, 22);
+            this.txtRes3.TabIndex = 19;
+            // 
+            // txtRes2
+            // 
+            this.txtRes2.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.txtRes2.Location = new System.Drawing.Point(94, 150);
+            this.txtRes2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtRes2.Name = "txtRes2";
+            this.txtRes2.Size = new System.Drawing.Size(575, 22);
+            this.txtRes2.TabIndex = 18;
+            // 
+            // txtRes1
+            // 
+            this.txtRes1.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.txtRes1.Location = new System.Drawing.Point(94, 96);
+            this.txtRes1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtRes1.Name = "txtRes1";
+            this.txtRes1.Size = new System.Drawing.Size(575, 22);
+            this.txtRes1.TabIndex = 17;
             // 
             // Encuestas
             // 
@@ -690,6 +680,7 @@
             this.Name = "Encuestas";
             this.Text = "Encuestas";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Encuestas_FormClosed);
+            this.Load += new System.EventHandler(this.Encuestas_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
@@ -716,11 +707,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.PanelSuperior.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -755,16 +746,6 @@
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button btnEnviar;
-        private System.Windows.Forms.TextBox txtPregunta5;
-        private System.Windows.Forms.TextBox txtPregunta4;
-        private System.Windows.Forms.TextBox txtPregunta3;
-        private System.Windows.Forms.TextBox txtPregunta2;
-        private System.Windows.Forms.TextBox txtPregunta1;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button btnHacerEncuesta;
         private System.Windows.Forms.Button btnConsultarEncuesta;
@@ -776,5 +757,15 @@
         private System.Windows.Forms.Button btnReporte;
         private System.Windows.Forms.Button btnConsumo;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.TextBox txtPregunta3;
+        private System.Windows.Forms.TextBox txtPregunta4;
+        private System.Windows.Forms.TextBox txtPregunta5;
+        private System.Windows.Forms.TextBox txtPregunta2;
+        private System.Windows.Forms.TextBox txtPregunta1;
+        private System.Windows.Forms.TextBox txtRes5;
+        private System.Windows.Forms.TextBox txtRes4;
+        private System.Windows.Forms.TextBox txtRes3;
+        private System.Windows.Forms.TextBox txtRes2;
+        private System.Windows.Forms.TextBox txtRes1;
     }
 }

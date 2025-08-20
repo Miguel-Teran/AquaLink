@@ -56,16 +56,6 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.btnGuardar = new System.Windows.Forms.Button();
             this.btnAtras = new System.Windows.Forms.Button();
-            this.txtRespuesta5 = new System.Windows.Forms.TextBox();
-            this.txtRespuesta4 = new System.Windows.Forms.TextBox();
-            this.txtRespuesta3 = new System.Windows.Forms.TextBox();
-            this.txtRespuesta2 = new System.Windows.Forms.TextBox();
-            this.txtRespuesta1 = new System.Windows.Forms.TextBox();
-            this.btnEditar5 = new System.Windows.Forms.Button();
-            this.btnEditar4 = new System.Windows.Forms.Button();
-            this.btnEditar3 = new System.Windows.Forms.Button();
-            this.btnEditar2 = new System.Windows.Forms.Button();
-            this.btnEditar1 = new System.Windows.Forms.Button();
             this.Encuestas = new System.Windows.Forms.Label();
             this.btnHacerEncuesta = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -77,6 +67,8 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnReporte = new System.Windows.Forms.Button();
             this.btnConsumo = new System.Windows.Forms.Button();
+            this.dgvEncuestas = new System.Windows.Forms.DataGridView();
+            this.btnEliminar = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
@@ -107,6 +99,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.PanelSuperior.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvEncuestas)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -117,6 +110,7 @@
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.panel1.Controls.Add(this.pictureBox23);
             this.panel1.Controls.Add(this.pictureBox22);
+            this.panel1.Controls.Add(this.Encuestas);
             this.panel1.Controls.Add(this.pictureBox13);
             this.panel1.Controls.Add(this.pictureBox12);
             this.panel1.Controls.Add(this.pictureBox11);
@@ -438,19 +432,10 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.White;
+            this.panel4.Controls.Add(this.btnEliminar);
+            this.panel4.Controls.Add(this.dgvEncuestas);
             this.panel4.Controls.Add(this.btnGuardar);
             this.panel4.Controls.Add(this.btnAtras);
-            this.panel4.Controls.Add(this.txtRespuesta5);
-            this.panel4.Controls.Add(this.txtRespuesta4);
-            this.panel4.Controls.Add(this.txtRespuesta3);
-            this.panel4.Controls.Add(this.txtRespuesta2);
-            this.panel4.Controls.Add(this.txtRespuesta1);
-            this.panel4.Controls.Add(this.btnEditar5);
-            this.panel4.Controls.Add(this.btnEditar4);
-            this.panel4.Controls.Add(this.btnEditar3);
-            this.panel4.Controls.Add(this.btnEditar2);
-            this.panel4.Controls.Add(this.btnEditar1);
-            this.panel4.Controls.Add(this.Encuestas);
             this.panel4.Location = new System.Drawing.Point(638, 362);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(760, 415);
@@ -459,7 +444,7 @@
             // btnGuardar
             // 
             this.btnGuardar.BackColor = System.Drawing.Color.PowderBlue;
-            this.btnGuardar.Location = new System.Drawing.Point(547, 316);
+            this.btnGuardar.Location = new System.Drawing.Point(587, 344);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(150, 50);
             this.btnGuardar.TabIndex = 12;
@@ -470,7 +455,7 @@
             // btnAtras
             // 
             this.btnAtras.BackColor = System.Drawing.Color.PowderBlue;
-            this.btnAtras.Location = new System.Drawing.Point(50, 316);
+            this.btnAtras.Location = new System.Drawing.Point(34, 344);
             this.btnAtras.Name = "btnAtras";
             this.btnAtras.Size = new System.Drawing.Size(150, 50);
             this.btnAtras.TabIndex = 11;
@@ -478,100 +463,11 @@
             this.btnAtras.UseVisualStyleBackColor = false;
             this.btnAtras.Click += new System.EventHandler(this.btnAtras_Click);
             // 
-            // txtRespuesta5
-            // 
-            this.txtRespuesta5.BackColor = System.Drawing.Color.PowderBlue;
-            this.txtRespuesta5.Location = new System.Drawing.Point(127, 254);
-            this.txtRespuesta5.Name = "txtRespuesta5";
-            this.txtRespuesta5.Size = new System.Drawing.Size(607, 22);
-            this.txtRespuesta5.TabIndex = 10;
-            // 
-            // txtRespuesta4
-            // 
-            this.txtRespuesta4.BackColor = System.Drawing.Color.PowderBlue;
-            this.txtRespuesta4.Location = new System.Drawing.Point(127, 210);
-            this.txtRespuesta4.Name = "txtRespuesta4";
-            this.txtRespuesta4.Size = new System.Drawing.Size(607, 22);
-            this.txtRespuesta4.TabIndex = 9;
-            // 
-            // txtRespuesta3
-            // 
-            this.txtRespuesta3.BackColor = System.Drawing.Color.PowderBlue;
-            this.txtRespuesta3.Location = new System.Drawing.Point(127, 163);
-            this.txtRespuesta3.Name = "txtRespuesta3";
-            this.txtRespuesta3.Size = new System.Drawing.Size(607, 22);
-            this.txtRespuesta3.TabIndex = 8;
-            // 
-            // txtRespuesta2
-            // 
-            this.txtRespuesta2.BackColor = System.Drawing.Color.PowderBlue;
-            this.txtRespuesta2.Location = new System.Drawing.Point(127, 121);
-            this.txtRespuesta2.Name = "txtRespuesta2";
-            this.txtRespuesta2.Size = new System.Drawing.Size(607, 22);
-            this.txtRespuesta2.TabIndex = 7;
-            // 
-            // txtRespuesta1
-            // 
-            this.txtRespuesta1.BackColor = System.Drawing.Color.PowderBlue;
-            this.txtRespuesta1.Location = new System.Drawing.Point(127, 76);
-            this.txtRespuesta1.Name = "txtRespuesta1";
-            this.txtRespuesta1.Size = new System.Drawing.Size(607, 22);
-            this.txtRespuesta1.TabIndex = 6;
-            // 
-            // btnEditar5
-            // 
-            this.btnEditar5.Location = new System.Drawing.Point(24, 254);
-            this.btnEditar5.Name = "btnEditar5";
-            this.btnEditar5.Size = new System.Drawing.Size(75, 23);
-            this.btnEditar5.TabIndex = 5;
-            this.btnEditar5.Text = "Editar";
-            this.btnEditar5.UseVisualStyleBackColor = true;
-            this.btnEditar5.Click += new System.EventHandler(this.btnEditar5_Click);
-            // 
-            // btnEditar4
-            // 
-            this.btnEditar4.Location = new System.Drawing.Point(24, 210);
-            this.btnEditar4.Name = "btnEditar4";
-            this.btnEditar4.Size = new System.Drawing.Size(75, 23);
-            this.btnEditar4.TabIndex = 4;
-            this.btnEditar4.Text = "Editar";
-            this.btnEditar4.UseVisualStyleBackColor = true;
-            this.btnEditar4.Click += new System.EventHandler(this.btnEditar4_Click);
-            // 
-            // btnEditar3
-            // 
-            this.btnEditar3.Location = new System.Drawing.Point(24, 163);
-            this.btnEditar3.Name = "btnEditar3";
-            this.btnEditar3.Size = new System.Drawing.Size(75, 23);
-            this.btnEditar3.TabIndex = 3;
-            this.btnEditar3.Text = "Editar";
-            this.btnEditar3.UseVisualStyleBackColor = true;
-            this.btnEditar3.Click += new System.EventHandler(this.btnEditar3_Click);
-            // 
-            // btnEditar2
-            // 
-            this.btnEditar2.Location = new System.Drawing.Point(24, 121);
-            this.btnEditar2.Name = "btnEditar2";
-            this.btnEditar2.Size = new System.Drawing.Size(75, 23);
-            this.btnEditar2.TabIndex = 2;
-            this.btnEditar2.Text = "Editar";
-            this.btnEditar2.UseVisualStyleBackColor = true;
-            this.btnEditar2.Click += new System.EventHandler(this.btnEditar2_Click);
-            // 
-            // btnEditar1
-            // 
-            this.btnEditar1.Location = new System.Drawing.Point(24, 76);
-            this.btnEditar1.Name = "btnEditar1";
-            this.btnEditar1.Size = new System.Drawing.Size(75, 23);
-            this.btnEditar1.TabIndex = 1;
-            this.btnEditar1.Text = "Editar";
-            this.btnEditar1.UseVisualStyleBackColor = true;
-            this.btnEditar1.Click += new System.EventHandler(this.btnEditar1_Click);
-            // 
             // Encuestas
             // 
             this.Encuestas.AutoSize = true;
-            this.Encuestas.Location = new System.Drawing.Point(355, 21);
+            this.Encuestas.BackColor = System.Drawing.Color.White;
+            this.Encuestas.Location = new System.Drawing.Point(984, 348);
             this.Encuestas.Name = "Encuestas";
             this.Encuestas.Size = new System.Drawing.Size(70, 16);
             this.Encuestas.TabIndex = 0;
@@ -679,6 +575,28 @@
             this.btnConsumo.UseVisualStyleBackColor = true;
             this.btnConsumo.Click += new System.EventHandler(this.btnConsumo_Click);
             // 
+            // dgvEncuestas
+            // 
+            this.dgvEncuestas.BackgroundColor = System.Drawing.Color.White;
+            this.dgvEncuestas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvEncuestas.Location = new System.Drawing.Point(0, 0);
+            this.dgvEncuestas.Name = "dgvEncuestas";
+            this.dgvEncuestas.RowHeadersWidth = 51;
+            this.dgvEncuestas.RowTemplate.Height = 24;
+            this.dgvEncuestas.Size = new System.Drawing.Size(760, 338);
+            this.dgvEncuestas.TabIndex = 96;
+            // 
+            // btnEliminar
+            // 
+            this.btnEliminar.BackColor = System.Drawing.Color.PowderBlue;
+            this.btnEliminar.Location = new System.Drawing.Point(291, 344);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(150, 50);
+            this.btnEliminar.TabIndex = 96;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.UseVisualStyleBackColor = false;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
+            // 
             // FormConsultas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -690,6 +608,7 @@
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormConsultas_FormClosed);
             this.Load += new System.EventHandler(this.FormConsultas_Load);
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
@@ -714,12 +633,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
             this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.PanelSuperior.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvEncuestas)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -754,16 +673,6 @@
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Button btnGuardar;
         private System.Windows.Forms.Button btnAtras;
-        private System.Windows.Forms.TextBox txtRespuesta5;
-        private System.Windows.Forms.TextBox txtRespuesta4;
-        private System.Windows.Forms.TextBox txtRespuesta3;
-        private System.Windows.Forms.TextBox txtRespuesta2;
-        private System.Windows.Forms.TextBox txtRespuesta1;
-        private System.Windows.Forms.Button btnEditar5;
-        private System.Windows.Forms.Button btnEditar4;
-        private System.Windows.Forms.Button btnEditar3;
-        private System.Windows.Forms.Button btnEditar2;
-        private System.Windows.Forms.Button btnEditar1;
         private System.Windows.Forms.Label Encuestas;
         private System.Windows.Forms.Button btnHacerEncuesta;
         private System.Windows.Forms.PictureBox pictureBox3;
@@ -775,5 +684,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnReporte;
         private System.Windows.Forms.Button btnConsumo;
+        private System.Windows.Forms.Button btnEliminar;
+        private System.Windows.Forms.DataGridView dgvEncuestas;
     }
 }

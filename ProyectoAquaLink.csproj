@@ -69,6 +69,7 @@
     </Compile>
     <Compile Include="CLSRegistro.cs" />
     <Compile Include="Conexion.cs" />
+    <Compile Include="Encuesta.cs" />
     <Compile Include="Encuestas.cs">
       <SubType>Form</SubType>
     </Compile>

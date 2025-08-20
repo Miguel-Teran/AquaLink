@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static ProyectoAquaLink.Encuesta;
 using static ProyectoAquaLink.Encuestas;
 
 namespace ProyectoAquaLink
@@ -21,71 +22,59 @@ namespace ProyectoAquaLink
 
         private void FormConsultas_Load(object sender, EventArgs e)
         {
-            txtRespuesta1.Text = DatosEncuesta.respuestas[0];
-            txtRespuesta2.Text = DatosEncuesta.respuestas[1];
-            txtRespuesta3.Text = DatosEncuesta.respuestas[2];
-            txtRespuesta4.Text = DatosEncuesta.respuestas[3];
-            txtRespuesta5.Text = DatosEncuesta.respuestas[4];
+            try
+            {
 
-            txtRespuesta1.ReadOnly = true;
-            txtRespuesta2.ReadOnly = true;
-            txtRespuesta3.ReadOnly = true;
-            txtRespuesta4.ReadOnly = true;
-            txtRespuesta5.ReadOnly = true;
-        }
+                EncuestaController controlador = new EncuestaController();
 
-        private void btnEditar1_Click(object sender, EventArgs e)
-        {
-            txtRespuesta1.ReadOnly = false;
-            txtRespuesta1.Focus();
-        }
 
-        private void btnEditar2_Click(object sender, EventArgs e)
-        {
-            txtRespuesta2.ReadOnly = false;
-            txtRespuesta2.Focus();
-        }
+                List<ModeloEncuesta> encuestas = controlador.ObtenerEncuestas();
 
-        private void btnEditar3_Click(object sender, EventArgs e)
-        {
-            txtRespuesta3.ReadOnly = false;
-            txtRespuesta3.Focus();
-        }
 
-        private void btnEditar4_Click(object sender, EventArgs e)
-        {
-            txtRespuesta4.ReadOnly = false;
-            txtRespuesta4.Focus();
-        }
-
-        private void btnEditar5_Click(object sender, EventArgs e)
-        {
-            txtRespuesta5.ReadOnly = false;
-            txtRespuesta5.Focus();
+                dgvEncuestas.DataSource = encuestas;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al cargar los datos: " + ex.Message, "Error");
+            }
         }
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-            DatosEncuesta.respuestas[0] = txtRespuesta1.Text;
-            DatosEncuesta.respuestas[1] = txtRespuesta2.Text;
-            DatosEncuesta.respuestas[2] = txtRespuesta3.Text;
-            DatosEncuesta.respuestas[3] = txtRespuesta4.Text;
-            DatosEncuesta.respuestas[4] = txtRespuesta5.Text;
+            try
+            {
 
-            txtRespuesta1.ReadOnly = true;
-            txtRespuesta2.ReadOnly = true;
-            txtRespuesta3.ReadOnly = true;
-            txtRespuesta4.ReadOnly = true;
-            txtRespuesta5.ReadOnly = true;
+                dgvEncuestas.EndEdit();
 
-            btnGuardar.Enabled = false;
-            btnEditar1.Enabled = true;
-            btnEditar2.Enabled = true;
-            btnEditar3.Enabled = true;
-            btnEditar4.Enabled = true;
-            btnEditar5.Enabled = true;
 
-            MessageBox.Show("Respuestas guardadas correctamente", "Aqualink");
+                foreach (DataGridViewRow fila in dgvEncuestas.Rows)
+                {
+                    if (fila.IsNewRow) continue;
+
+
+                    ModeloEncuesta encuestaActualizada = new ModeloEncuesta
+                    {
+                        ID = Convert.ToInt32(fila.Cells["ID"].Value),
+                        EncuestaNombre = fila.Cells["EncuestaNombre"].Value.ToString(),
+                        Pregunta = fila.Cells["Pregunta"].Value.ToString(),
+                        Respuesta = fila.Cells["Respuesta"].Value.ToString(),
+                        Fecha = Convert.ToDateTime(fila.Cells["Fecha"].Value)
+                    };
+
+
+                    EncuestaController controlador = new EncuestaController();
+                    controlador.ActualizarEncuesta(encuestaActualizada);
+                }
+
+                MessageBox.Show("Registros actualizados correctamente.", "Aqualink");
+
+
+                FormConsultas_Load(sender, e);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al actualizar la encuesta: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void btnAtras_Click(object sender, EventArgs e)
@@ -133,6 +122,37 @@ namespace ProyectoAquaLink
         private void FormConsultas_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            if (dgvEncuestas.CurrentRow != null)
+            {
+                DialogResult confirmacion = MessageBox.Show("¿Estás seguro de que quieres eliminar esta encuesta?", "Confirmar eliminación", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+
+                if (confirmacion == DialogResult.Yes)
+                {
+                    try
+                    {
+                        int idRegistroAEliminar = (int)dgvEncuestas.CurrentRow.Cells["ID"].Value;
+
+                        EncuestaController controlador = new EncuestaController();
+                        controlador.EliminarEncuesta(idRegistroAEliminar);
+
+                        MessageBox.Show("Encuesta eliminada correctamente.", "Aqualink");
+
+                        FormConsultas_Load(sender, e);
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show("Error al eliminar la encuesta: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("Selecciona una fila para eliminar.", "Aviso");
+            }
         }
     }
 }
